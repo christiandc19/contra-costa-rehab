@@ -29,7 +29,7 @@ p {
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:600px) {
 
     .box {
         width: 300px;
@@ -37,6 +37,7 @@ p {
 
     .box img {
         width: 100%;
+        height: 350px;
     }
 
     p {

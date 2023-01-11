@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 :root {
-  --primary-color: #7F669D;
+  --primary-color: #16a144;
   --primary-dark: #0d2154;
   --secondary-color: #46a828;
 
@@ -81,8 +81,8 @@ button {
 }
 
 button:hover {
-  background-color: #47dcff;
-  border: 1px solid #47dcff;
+  background-color: #53170f;
+  border: 1px solid #53170f;
 }
 
 span {
