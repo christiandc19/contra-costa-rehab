@@ -11,7 +11,7 @@
 .hero:before {
     content: '';
     position: absolute;
-    background: url('../../assets/hero-image-2.jpg') no-repeat center center/cover;
+    background: url('../../assets/hero-image.jpg') no-repeat center center/cover;
     height: 100%;
     width: 100%;
     z-index: -1;
@@ -20,14 +20,13 @@
 .hero .hero-container {
     top: 30%;
     position: absolute;
-    /* align-items: left; */
     width: auto;
     margin: 0 0 0 4rem;
 }
 
 .hero h1 {
     font-size: 8rem;
-    color: rgb(36, 155, 149);
+    color: #1b3d6f;
     text-align: left;
 
 }
@@ -35,7 +34,7 @@
 .hero h2 {
     font-size: 2.5rem;
     text-align: center;
-    color: rgb(206, 20, 51);
+    color: rgb(255, 255, 255);
     text-align: left;
 
 }
@@ -43,7 +42,7 @@
 .hero p {
     font-size: 18px;
     text-align: left;
-    color: var(--primary-color);
+    color: #1b3d6f;
     font-style: italic;
 }
 
