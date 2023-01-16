@@ -17,10 +17,6 @@
     margin: 2rem auto;
 }
 
-.cards-header h1 {
-    margin: 1rem 0;
-}
-
 
 /* Small Size Devices*/
 @media screen and (max-width:940px) {
