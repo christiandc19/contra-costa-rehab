@@ -25,14 +25,14 @@
 }
 
 .hero h1 {
-    font-size: 8rem;
-    color: #1b3d6f;
+    font-size: 5rem;
+    color: var(--primary-color);
     text-align: left;
 
 }
 
 .hero h2 {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     text-align: center;
     color: rgb(255, 255, 255);
     text-align: left;
@@ -61,9 +61,6 @@
         line-height: 4rem;
     }
     
-    .hero h2 {
-        font-size: 25px;
-    }
 
     .hero p {
         font-size: 16px;

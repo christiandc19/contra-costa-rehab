@@ -16,7 +16,7 @@ const Hero = () => {
 
 
                     <Fade bottom>
-                        <h1>Contra Costa</h1>
+                        <h1>CONTRA COSTA</h1>
                     </Fade>
                     <Fade bottom>
                         <h2 className='subtitle'>SUBSTANCE ABUSE ADDICTION AND MENTAL HEALTH TREATMENT FACILITY</h2>
