@@ -1,8 +1,10 @@
 {
   "files": {
-    "main.css": "/contra-costa-rehab/static/css/main.a275abf0.css",
-    "main.js": "/contra-costa-rehab/static/js/main.e6259375.js",
+    "main.css": "/contra-costa-rehab/static/css/main.b3f84273.css",
+    "main.js": "/contra-costa-rehab/static/js/main.230893b5.js",
     "static/media/footer-bg.webp": "/contra-costa-rehab/static/media/footer-bg.82fabf297fc0244dc3a5.webp",
+    "static/media/treatment-1.jpg": "/contra-costa-rehab/static/media/treatment-1.9b93aa36872433733c19.jpg",
+    "static/media/treatment-2.jpg": "/contra-costa-rehab/static/media/treatment-2.6125ee1c93e30c1b25e6.jpg",
     "static/media/therapy.jpg": "/contra-costa-rehab/static/media/therapy.16ffd31bf0d0f6a6a2d2.jpg",
     "static/media/hero-image.jpg": "/contra-costa-rehab/static/media/hero-image.cc0325eb421db99e59f7.jpg",
     "static/media/menu-bg.jpg": "/contra-costa-rehab/static/media/menu-bg.ac62978e91804c057a68.jpg",
@@ -10,7 +12,6 @@
     "static/media/nav-logo-wh.png": "/contra-costa-rehab/static/media/nav-logo-wh.8d1989e460cfd9b3a6d6.png",
     "static/media/nav-logo.png": "/contra-costa-rehab/static/media/nav-logo.1a24f6ac7208f69f2a85.png",
     "static/media/staff.jpg": "/contra-costa-rehab/static/media/staff.4d703a9340e5ca8aa595.jpg",
-    "static/media/treatment-image-1.jpg": "/contra-costa-rehab/static/media/treatment-image-1.c10af3db865bd3d57842.jpg",
     "static/media/activity.jpg": "/contra-costa-rehab/static/media/activity.2838aa3271dac3b6541c.jpg",
     "static/media/PhpSection3.jpg": "/contra-costa-rehab/static/media/PhpSection3.b181ff1a26ae4664f97b.jpg",
     "static/media/IopSection1.jpg": "/contra-costa-rehab/static/media/IopSection1.2c6d9291efd554cf9cd8.jpg",
@@ -31,11 +32,11 @@
     "static/media/aetna.png": "/contra-costa-rehab/static/media/aetna.ba1c7baa5f90d207ae2b.png",
     "static/media/bluecross.png": "/contra-costa-rehab/static/media/bluecross.2f180be7d5ab799101c3.png",
     "index.html": "/contra-costa-rehab/index.html",
-    "main.a275abf0.css.map": "/contra-costa-rehab/static/css/main.a275abf0.css.map",
-    "main.e6259375.js.map": "/contra-costa-rehab/static/js/main.e6259375.js.map"
+    "main.b3f84273.css.map": "/contra-costa-rehab/static/css/main.b3f84273.css.map",
+    "main.230893b5.js.map": "/contra-costa-rehab/static/js/main.230893b5.js.map"
   },
   "entrypoints": [
-    "static/css/main.a275abf0.css",
-    "static/js/main.e6259375.js"
+    "static/css/main.b3f84273.css",
+    "static/js/main.230893b5.js"
   ]
 }
