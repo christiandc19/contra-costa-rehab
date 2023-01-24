@@ -46,13 +46,13 @@ const IopSection = () => {
 
 <div className='wrap'>
 
-    <Fade right>
+    <Fade left>
     <div className="box">
         <img src={PhpSection2} width="600px" height="450px" alt="Palm Springs Rehab Logo" loading="lazy" />
     </div>
     </Fade>
 
-    <Fade left>
+    <Fade right>
     <div className="box box-left">
         <h1 className='header'>LEARN ABOUT OUR OTHER PROGRAMS</h1>
         <br/><br/>
@@ -61,9 +61,36 @@ const IopSection = () => {
         At Contra Costa Rehab Treatment Center, we provide several other avenues of addiction treatment. In addition to our partial hospitalization program, we offer:</p>
         <br />
         <ul>
-            <li><p>Partial Hospitalization Program - IOP</p></li>
-            <li><p>Outpatient Program - OP</p></li>
-            <li><p>Jobs Program</p></li>
+            <li>
+            <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
+                        <Link to='/substance-abuse-iop'><p className='prog-link'>SUBSTANCE ABUSE - IOP</p></Link>
+            </LinkRoll>
+            </li>
+
+            <li>
+            <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
+                        <Link to='/substance-abuse-php'><p className='prog-link'>SUBSTANCE ABUSE - PHP</p></Link>
+            </LinkRoll>
+            </li>
+
+            <li>
+            <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
+                        <Link to='/substance-abuse-op'><p className='prog-link'>SUBSTANCE ABUSE - OP</p></Link>
+            </LinkRoll>
+            </li>
+            <br />
+            <li>
+            <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
+                        <Link to='/mental-health-php'><p className='prog-link'>MENTAL HEALTH - PHP</p></Link>
+            </LinkRoll>
+            </li>
+
+            <li>
+            <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
+                        <Link to='/mental-health-op'><p className='prog-link'>MENTAL HEALTH - OP</p></Link>
+            </LinkRoll>
+            </li>
+
         </ul>
         <br />
         <p>Contact us today and start your journey to recovery. We are eager to help you overcome your addiction</p> 

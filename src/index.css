@@ -279,6 +279,15 @@ p {
     font-size: 15px;
 }
 
+.prog-link {
+  color: var(--primary-color);
+  font-size: 13px;
+}
+
+.prog-link:hover {
+  color: var(--primary-dark);
+}
+
 
 /* MEDIA QUERIES */
 
