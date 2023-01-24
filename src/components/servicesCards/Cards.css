@@ -28,6 +28,12 @@
     .cards-header p {
         font-size: 14px;
     }
+
+    .cards-header {
+        margin: -8rem auto 0 auto;
+    }
+
+
 }
 
 

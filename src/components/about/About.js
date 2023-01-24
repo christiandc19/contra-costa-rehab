@@ -20,7 +20,7 @@ const About = () => {
                     </div>
             </div>
                                             {/* aboutUsContainer */}
-                                <div className="main-menu-header">
+                                <div className="main-menu-header about-header">
                                 <br/>
                                     <h1>ABOUT US</h1>
 
