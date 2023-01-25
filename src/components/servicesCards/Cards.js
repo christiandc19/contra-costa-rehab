@@ -33,7 +33,7 @@ const Cards = () => {
                     <ServicesCards
                         Image={Card2}
                         CardName="SUBSTANCE USE TREATMENT"
-                        Description="No matter what type of addiction or mental health condition you are dealing with, there’s something for everyone at Palm Springs Rehab."
+                        Description="No matter what type of addiction or mental health condition you are dealing with, there’s something for everyone at Contra Costa Rehab Center."
                     />
                 </Fade>
 
