@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/contra-costa-rehab/static/css/main.c852a28a.css",
-    "main.js": "/contra-costa-rehab/static/js/main.812521f1.js",
+    "main.js": "/contra-costa-rehab/static/js/main.8570a17f.js",
     "static/media/menu-bg-2.png": "/contra-costa-rehab/static/media/menu-bg-2.7525f94335e273a038c5.png",
     "static/media/footer-bg.webp": "/contra-costa-rehab/static/media/footer-bg.82fabf297fc0244dc3a5.webp",
     "static/media/hero-image-2.png": "/contra-costa-rehab/static/media/hero-image-2.6c35068a5162221b4b79.png",
@@ -33,10 +33,10 @@
     "static/media/bluecross.png": "/contra-costa-rehab/static/media/bluecross.2f180be7d5ab799101c3.png",
     "index.html": "/contra-costa-rehab/index.html",
     "main.c852a28a.css.map": "/contra-costa-rehab/static/css/main.c852a28a.css.map",
-    "main.812521f1.js.map": "/contra-costa-rehab/static/js/main.812521f1.js.map"
+    "main.8570a17f.js.map": "/contra-costa-rehab/static/js/main.8570a17f.js.map"
   },
   "entrypoints": [
     "static/css/main.c852a28a.css",
-    "static/js/main.812521f1.js"
+    "static/js/main.8570a17f.js"
   ]
 }
