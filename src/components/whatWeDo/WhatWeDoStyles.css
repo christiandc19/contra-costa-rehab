@@ -3,6 +3,7 @@
   flex-wrap: wrap ;
   justify-content: center;
   margin: 1rem 0;
+  gap: 5rem;
 }
 
 .box {
@@ -19,22 +20,21 @@
 
 .box img {
     border-radius: 10px;
+    margin: auto;
 }
 
 p {
     font-size: 15px;
 }
 
-
+.right {
+    width: 250px;
+}
 
 /* MEDIA QUERIES */
 
 @media screen and (max-width:600px) {
 
-
-    .box img {
-        display: none;
-    }
 
     p {
         font-size: 14px;
@@ -52,4 +52,9 @@ p {
 .left button {
     margin: 1rem auto;
 }
+
+.wrap {
+    gap: 1rem;
+  }
+
 }

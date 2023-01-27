@@ -57,6 +57,7 @@
     margin: 20px 0px 10px 0px;
     color: #04bcff;
     font-size: 18px;
+    text-align: center;
   }
 
 .cards-header {
@@ -85,6 +86,15 @@
     .card-box {
         flex-wrap: wrap;
         margin: 1rem 0;
+    }
+
+    .box p {
+        text-align: justify;
+        padding: 0 10px;
+    }
+
+    .title {
+        text-align: center;
     }
 }
 
