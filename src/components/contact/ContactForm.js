@@ -1,7 +1,5 @@
 import React, { useRef } from "react";
-import { BsFillPinMapFill } from 'react-icons/bs';
-import { AiOutlinePhone } from 'react-icons/ai';
-// import { AiOutlineMail } from 'react-icons/ai';
+
 
 
 import './ContactForm.css';
@@ -43,19 +41,21 @@ const ContactForm = () => {
           <div class="topic">Address</div><br/>
           <div class="text-one">3700 Sunset Ln, Suite 2</div>
           <div class="text-two">Antioch, CA 94509</div>
-
         </div>
+
         <div class="phone details">
           <i class="fas fa-phone-alt"></i>
           <div class="topic">Phone</div><br/>
           <div class="text-one"><a href="tel:3237920502"> +1 (323) 792-0502</a></div>
         </div>
+
         <div class="email details">
           <i class="fas fa-envelope"></i>
           <div class="topic">Email</div><br/>
           <div class="text-one">info@domainName.com</div>
         </div>
       </div>
+
       <div class="right-side">
         <div class="topic-text">Send us a message</div>
         <p>Please call our admission department if you have any questions.</p>
