@@ -73,9 +73,7 @@ const ContactForm = () => {
         <textarea name="message" rows="4" placeholder="How can we help?" required ></textarea>
 
         </div>
-        <div class="button">
-          <input type="button" value="Send Now" />
-        </div>
+        <input className="contact-btn" type="submit" value="Submit" />
       </form>
     </div>
     </div>

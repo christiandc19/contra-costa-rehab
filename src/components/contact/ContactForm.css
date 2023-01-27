@@ -84,7 +84,8 @@
   display: inline-block;
   margin-top: 12px;
 }
-.right-side .button input[type="button"]{
+
+.contact-btn {
   color: #fff;
   font-size: 18px;
   outline: none;
@@ -95,7 +96,8 @@
   cursor: pointer;
   transition: all 0.3s ease;
 }
-.button input[type="button"]:hover{
+
+.contact-btn:hover {
   background: #5029bc;
 }
 
