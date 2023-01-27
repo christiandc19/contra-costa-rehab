@@ -34,7 +34,7 @@ const ContactForm = () => {
 
 
 <div class="container">
-    <div class="content">
+    <div class="contact-form-content">
 
       <div class="left-side">
 

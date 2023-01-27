@@ -2,13 +2,13 @@
 
 
 
-.container .content{
+.container .contact-form-content{
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin: 2rem 0;
 }
-.container .content .left-side{
+.container .contact-form-content .left-side{
   width: 25%;
   height: 100%;
   display: flex;
@@ -18,7 +18,7 @@
   margin-top: 15px;
   position: relative;
 }
-.content .left-side::before{
+.contact-form-content .left-side::before{
   content: '';
   position: absolute;
   height: 70%;
@@ -28,29 +28,29 @@
   transform: translateY(-50%);
   background: #afafb6;
 }
-.content .left-side .details{
+.contact-form-content .left-side .details{
   margin: 14px;
   text-align: center;
 }
-.content .left-side .details i{
+.contact-form-content .left-side .details i{
   font-size: 30px;
   color: #3e2093;
   margin-bottom: 10px;
 }
-.content .left-side .details .topic{
+.contact-form-content .left-side .details .topic{
   font-size: 18px;
   font-weight: 500;
 }
-.content .left-side .details .text-one, .text-one a,
-.content .left-side .details .text-two{
+.contact-form-content .left-side .details .text-one, .text-one a,
+.contact-form-content .left-side .details .text-two{
   font-size: 14px;
   color: #afafb6;
 }
-.container .content .right-side{
+.container .contact-form-content .right-side{
   width: 75%;
   margin-left: 75px;
 }
-.content .right-side .topic-text{
+.contact-form-content .right-side .topic-text{
   font-size: 23px;
   font-weight: 600;
   color:var(--primary-color);
@@ -97,13 +97,13 @@
   transition: all 0.3s ease;
 }
 
-.contact-btn:hover {
+..contact-btn {
   background: #5029bc;
 }
 
 @media (max-width: 950px) {
   .container{
-    width: 100%;
+    width: 90%;
     padding: 30px 40px 40px 35px ;
   }
   .container .content .right-side{
