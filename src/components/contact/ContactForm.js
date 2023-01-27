@@ -28,37 +28,59 @@ const ContactForm = () => {
 
     return (
         <>
-        <div className="contactForm-mainContainer">
-            <div className='contactForm'>
-                <div className="map">
-                    <div className="location">
-                        <h1>GET IN TOUCH</h1><br />
-                        <p><AiOutlinePhone /><a href="tel:3237920502"> +1 (323) 792-0502</a></p><br /> 
-                        {/* <p><AiOutlineMail /> info@domainName.com  </p><br /> */}
-                        <p><BsFillPinMapFill /> 3700 Sunset Ln, Suite 2, Antioch, CA 94509 </p><br />
-                        <p className="admission">Please call our admission department or fill out the form if you have any questions.</p>
-                    </div>
 
-                    <div className="iframe">
-                        <iframe title="map" width="700" height="250" id="gmap_canvas" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=721%20S.%20A%20Street,%201st%20Floor,%20Oxnard%20CA%2093030+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/distance-area-calculator.html">distance maps</a></iframe>
-                    </div>
-                </div>
 
-                <div className="container contact-container">
-                    <form ref={form} onSubmit={sendEmail}>
-                        <h1>SEND A MESSAGE</h1>
-                        <input className="user-input" type="text" name='name' placeholder='Your Name' required />
-                        <input className="user-input" type="text" name='email' placeholder='Your Email' required />
-                        <input className="user-input" type="text" name='email' placeholder='Your Phone' required />
-                        <input className="user-input" type="text" name='email' placeholder='Subject' required />
-                        <textarea className="user-input email-input" name="message" rows="4" placeholder="How can we help?" required ></textarea>
-                        <div className="submit-btn">
-                            <button type='submit' className="btn-modal btn btn-primary">Send</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
+
+
+
+<div class="container">
+    <div class="content">
+
+      <div class="left-side">
+
+        <div class="address details">
+          <i class="fas fa-map-marker-alt"></i>
+          <div class="topic">Address</div><br/>
+          <div class="text-one">3700 Sunset Ln, Suite 2</div>
+          <div class="text-two">Antioch, CA 94509</div>
+
+        </div>
+        <div class="phone details">
+          <i class="fas fa-phone-alt"></i>
+          <div class="topic">Phone</div><br/>
+          <div class="text-one"><a href="tel:3237920502"> +1 (323) 792-0502</a></div>
+        </div>
+        <div class="email details">
+          <i class="fas fa-envelope"></i>
+          <div class="topic">Email</div><br/>
+          <div class="text-one">info@domainName.com</div>
+        </div>
+      </div>
+      <div class="right-side">
+        <div class="topic-text">Send us a message</div>
+        <p>Please call our admission department if you have any questions.</p>
+      <form ref={form} onSubmit={sendEmail}>
+        <div class="input-box">
+        <input type="text" name='name' placeholder='Your Name' required />
+        </div>
+        <div class="input-box">
+        <input type="text" name='email' placeholder='Your Email' required />
+        </div>
+        <div class="input-box">
+        <input type="text" name='email' placeholder='Your Phone' required />
+        </div>
+        <div class="input-box message-box">
+        <textarea name="message" rows="4" placeholder="How can we help?" required ></textarea>
+
+        </div>
+        <div class="button">
+          <input type="button" value="Send Now" />
+        </div>
+      </form>
     </div>
+    </div>
+  </div>
+
         </>
     )
 }
