@@ -114,10 +114,7 @@
 }
 
 @media (max-width: 820px) {
-  .container{
-    margin: 40px 0;
-    height: 100%;
-  }
+
   .container .contact-form-content{
     flex-direction: column-reverse;
   }

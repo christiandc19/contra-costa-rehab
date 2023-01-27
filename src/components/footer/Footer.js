@@ -13,7 +13,7 @@ const Footer = () => {
             <div className="container">
                 <div className="top">
                     <div className="logo-footer">
-                    <img src={logo} width="150px" height="90px" alt="Palm Springs Rehab Logo" loading="lazy"/>
+                    <img src={logo} width="180px" height="90px" alt="Palm Springs Rehab Logo" loading="lazy"/>
                     </div>
                     <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
                         <BsFillArrowUpCircleFill className='icon' />
@@ -98,7 +98,7 @@ const Footer = () => {
                     </div>
 
                 </div>
-                <p className='copyright'><p>&copy; 2023 palmsprings.com</p></p>
+                <p className='copyright'><p>&copy; 2023 palmsprings.com All rights reserved.</p></p>
 
 
             </div>

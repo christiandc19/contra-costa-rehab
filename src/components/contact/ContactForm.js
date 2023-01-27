@@ -57,7 +57,7 @@ const ContactForm = () => {
       </div>
 
       <div class="right-side">
-        <div class="topic-text">Send us a message</div>
+        <div class="topic-text">SEND US A MESSAGE</div> <br/>
         <p>Please call our admission department if you have any questions.</p>
       <form ref={form} onSubmit={sendEmail}>
         <div class="input-box">
