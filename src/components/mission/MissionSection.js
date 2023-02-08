@@ -1,7 +1,7 @@
 import React from 'react'
 import './MissionSection.css'
 import Fade from 'react-reveal/Fade';
-// import ContactForm from '../contact/ContactForm'
+import ContactForm from '../contact/ContactForm'
 
 import Therapy from '../../assets/therapy.jpg'
 import Staff from '../../assets/staff.jpg'
@@ -13,10 +13,11 @@ import Work from '../../assets/employment-assistance.jpg'
 const MissionSection = () => {
     return (
         <>
-        <div className='mission-section'>
+        <div className='mission-section container'>
+        <h1>What We Can Provide</h1>
+        <p>We strive to make overcoming addiction achievable by focusing on your sobriety. We use proven medical practices and a comprehensive approach to healing through better guidance, greater compassion, and a stronger community.</p>
             <div>
                 <div className="content">
-                    <h1>What We Can Provide</h1>
                             <div className='flex-right'>
 
                             <Fade top>
@@ -31,7 +32,7 @@ const MissionSection = () => {
 
                     <Fade bottom>
                     <div className='thumbnail'>
-                    <img src={ Staff }width="300" height="250" alt="Clinic Staff" loading="lazy"/>
+                    <img src={ Staff } width="300" height="250" alt="Clinic Staff" loading="lazy"/>
                     <p>Compassionate staff that is dedicated to your success</p>
                     </div>
                     </Fade>
@@ -46,7 +47,7 @@ const MissionSection = () => {
                     <Fade bottom>
                     <div className='thumbnail'>
                     <img src={ Work } width="300" height="250" alt="People in Working Uniform" loading="lazy"/>
-                        <p>There are a variety of programs and organizations that fall under the umbrella of employment-based recovery support services.</p>  
+                        <p>Employment tools and resources to get you hired.</p>  
                     </div>
                     </Fade>                          
 
@@ -55,7 +56,7 @@ const MissionSection = () => {
             </div>
         </div>
 
-        {/* <ContactForm /> */}
+        <ContactForm />
 
 </>
     )

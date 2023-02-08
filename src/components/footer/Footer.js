@@ -9,11 +9,13 @@ import { Link as LinkRoll } from 'react-scroll'
 
 const Footer = () => {
     return (
+
+<>
         <div className='footer'>
             <div className="container">
                 <div className="top">
                     <div className="logo-footer">
-                    <img src={logo} width="180px" height="90px" alt="Palm Springs Rehab Logo" loading="lazy"/>
+                    <img src={logo} width="150px" height="90px" alt="Palm Springs Rehab Logo" loading="lazy"/>
                     </div>
                     <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
                         <BsFillArrowUpCircleFill className='icon' />
@@ -97,13 +99,26 @@ const Footer = () => {
                         </LinkRoll>
                     </div>
 
+                    {/* <form>
+                        <h3>Join Our Team</h3>
+                        <input type="email" placeholder='Enter your email' />
+                        <FiMail className='mail-icon' />
+                        <div className="social-group">
+                            <FiInstagram className='social-icon' />
+                            <FiFacebook className='social-icon' />
+                            <FiLinkedin className='social-icon' />
+                            <FiDribbble className='social-icon' />
+                            <FiGithub className='social-icon' />
+                        </div>
+                    </form> */}
                 </div>
-                <p className='copyright'><p>&copy; 2023 palmsprings.com All rights reserved.</p></p>
+                <p className='copyright'><p>&copy; 2023 Contra Costa Rehab Treatment Center. All rights reserved</p></p>
 
 
             </div>
 
         </div>
+</>
     )
 }
 
