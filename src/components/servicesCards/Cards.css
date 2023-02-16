@@ -23,6 +23,7 @@
   /* box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.44); */
   overflow:hidden;
   color:white;
+  text-align: center;
   font-family:'Roboto';
   border-radius: 10px;
   /* box-shadow: 10px 5px 5px rgb(129, 129, 129); */
@@ -109,7 +110,7 @@ box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
 
 .cards-header h1 {
   font-size: 1.5rem;
-  text-align: left;
+  text-align: center;
     margin: 1rem auto;
     font-family: 'Montserrat', sans-serif;
 }
@@ -125,7 +126,7 @@ box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
   
     .tile { 
       width: 350px;
-      height:330px;
+      height:370px;
     }
   
   }

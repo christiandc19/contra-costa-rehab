@@ -11,8 +11,8 @@
 
 .mh-tile
 {
-  width:400px;
-  height:270px;
+  width:300px;
+  height:360px;
   margin:10px;
   /* background-color:#444549; */
   display:inline-block;
@@ -22,6 +22,7 @@
   /* box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.44); */
   overflow:hidden;
   color:white;
+  text-align: center;
   font-family:'Roboto';
   border-radius: 10px;
   /* box-shadow: 10px 5px 5px rgb(129, 129, 129); */
@@ -119,11 +120,6 @@ font-family: 'Montserrat', sans-serif;
 @media (max-width: 940px) {
   .mh-card-wrap {
     width: 100%;
-  }
-
-  .mh-tile { 
-    width: 320px;
-    height:280px;
   }
 
 }
