@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/contra-costa-rehab/static/css/main.1af5b1f4.css",
-    "main.js": "/contra-costa-rehab/static/js/main.bb3675cb.js",
+    "main.css": "/contra-costa-rehab/static/css/main.e370896e.css",
+    "main.js": "/contra-costa-rehab/static/js/main.7aae2721.js",
     "static/media/whatwedo.png": "/contra-costa-rehab/static/media/whatwedo.bc99304c70e92530ca15.png",
     "static/media/footer-bg.jpg": "/contra-costa-rehab/static/media/footer-bg.14325a6fe838ebcaafe0.jpg",
     "static/media/menu-bg-treatment.jpg": "/contra-costa-rehab/static/media/menu-bg-treatment.140ade98e1c257d84734.jpg",
@@ -15,15 +15,8 @@
     "static/media/menu-bg-insurance.jpg": "/contra-costa-rehab/static/media/menu-bg-insurance.95c30f861e6c14eebb6d.jpg",
     "static/media/menu-bg-mission.jpg": "/contra-costa-rehab/static/media/menu-bg-mission.ad81ca1b33d463b33686.jpg",
     "static/media/menu-bg-contact.jpg": "/contra-costa-rehab/static/media/menu-bg-contact.09bd03f95e8ad26cc3d5.jpg",
-    "static/media/treatment-1.jpg": "/contra-costa-rehab/static/media/treatment-1.9b93aa36872433733c19.jpg",
-    "static/media/sa-card1.jpg": "/contra-costa-rehab/static/media/sa-card1.5891ebe6a5b42dd66b45.jpg",
-    "static/media/mh-card1.jpg": "/contra-costa-rehab/static/media/mh-card1.367573a8dc87cdb16f25.jpg",
-    "static/media/treatment-2.jpg": "/contra-costa-rehab/static/media/treatment-2.6125ee1c93e30c1b25e6.jpg",
-    "static/media/mh-card2.jpg": "/contra-costa-rehab/static/media/mh-card2.b64e5307609aa7e4a59b.jpg",
-    "static/media/activity.jpg": "/contra-costa-rehab/static/media/activity.18cf9f92ce0257180036.jpg",
-    "static/media/sa-card3.jpg": "/contra-costa-rehab/static/media/sa-card3.691425103e8d62d59481.jpg",
-    "static/media/mh-card3.jpg": "/contra-costa-rehab/static/media/mh-card3.c91842b9d41390befd53.jpg",
-    "static/media/sa-card2.jpg": "/contra-costa-rehab/static/media/sa-card2.7e0a763ad650d04043ed.jpg",
+    "static/media/treatment-2.jpg": "/contra-costa-rehab/static/media/treatment-2.873fd4460bac0712e2e3.jpg",
+    "static/media/treatment-1.jpg": "/contra-costa-rehab/static/media/treatment-1.7a6b56e489b410a02529.jpg",
     "static/media/team.jpg": "/contra-costa-rehab/static/media/team.24202f3813533aeb44a6.jpg",
     "static/media/staff.jpg": "/contra-costa-rehab/static/media/staff.05fa3028431c1d3d0788.jpg",
     "static/media/submenu-bg.jpg": "/contra-costa-rehab/static/media/submenu-bg.ebb4f6c7d8bd77ad609a.jpg",
@@ -45,11 +38,11 @@
     "static/media/bluecross.png": "/contra-costa-rehab/static/media/bluecross.2f180be7d5ab799101c3.png",
     "index.html": "/contra-costa-rehab/index.html",
     "static/media/waves.svg": "/contra-costa-rehab/static/media/waves.e42ddec972c9ec214abc0ac6e8439ee4.svg",
-    "main.1af5b1f4.css.map": "/contra-costa-rehab/static/css/main.1af5b1f4.css.map",
-    "main.bb3675cb.js.map": "/contra-costa-rehab/static/js/main.bb3675cb.js.map"
+    "main.e370896e.css.map": "/contra-costa-rehab/static/css/main.e370896e.css.map",
+    "main.7aae2721.js.map": "/contra-costa-rehab/static/js/main.7aae2721.js.map"
   },
   "entrypoints": [
-    "static/css/main.1af5b1f4.css",
-    "static/js/main.bb3675cb.js"
+    "static/css/main.e370896e.css",
+    "static/js/main.7aae2721.js"
   ]
 }
