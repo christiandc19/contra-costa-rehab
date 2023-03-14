@@ -13,16 +13,13 @@
     padding: 1rem;
 }
 
-.php h2 {
-    color: white;
-    font-size: 2rem;
-    font-family: 'Montserrat', sans-serif;
-}
+
 
 .php h1 {
     color: white;
     font-size: 4rem;
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }
 
 

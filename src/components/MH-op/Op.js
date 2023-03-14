@@ -15,7 +15,6 @@ const OP = () => {
             </div>
                 <div className="op-content">
                     <Fade top>
-                    <h2>- MENTAL HEALTH</h2>
                     <h1>Outpatient Program</h1>
                     </Fade>
                 </div>

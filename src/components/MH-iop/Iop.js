@@ -15,7 +15,6 @@ const IOP = () => {
             </div>
                 <div className="iop-content">
                     <Fade top>
-                    <h2>- MENTAL HEALTH</h2>
                     <h1>Intensive Outpatient Program</h1>
                     </Fade>
                 </div>
