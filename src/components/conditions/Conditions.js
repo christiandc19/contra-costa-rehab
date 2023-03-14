@@ -45,7 +45,7 @@ const Conditions = () => {
 
 <div className='conditions-icons'>
 <ConditionsLogos Image={BipolarDisorder} />
-<p>Anxiety Disorder</p>
+<p>Bipolor Disorder</p>
 </div>
 
 <div className='conditions-icons'>
