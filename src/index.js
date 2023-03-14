@@ -10,10 +10,6 @@ import MissionPage from './routes/MissionPage'
 import AboutPage from './routes/AboutPage'
 import InsurancePage from './routes/InsurancePage'
 import ContactPage from './routes/ContactPage'
-import SAPhp from './routes/SA-PHP';
-import SAIop from './routes/SA-IOP';
-import SAOp from './routes/SA-OP';
-import SA from './routes/SA';
 
 import MH from './routes/MH';
 import MHPhp from './routes/MH-PHP';
@@ -29,10 +25,6 @@ ReactDOM.render(
   <BrowserRouter basename={window.location.pathname || ''} >
     <Routes>
       <Route exact path='/' element={<App />} />
-      <Route exact path='/substance-abuse' element={<SA />} />
-      <Route exact path='/substance-abuse-php' element={<SAPhp />} />
-      <Route exact path='/substance-abuse-iop' element={<SAIop />} />
-      <Route exact path='/substance-abuse-op' element={<SAOp />} />
 
       <Route exact path='/mental-health' element={<MH />} />
       <Route exact path='/mental-health-php' element={<MHPhp />} />

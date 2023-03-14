@@ -1,40 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
 
-.iop-wrap {
+.php-wrap {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   padding: 3rem 0;
 }
 
-.iop-wrap-left {
+.php-wrap-left {
     width: 600px;
     padding: 1rem;
 }
 
-.iop-wrap-left h1 {
+.php-wrap-left h1 {
     font-size: 1.2rem;
     text-align: center;
 }
 
-.iop-wrap-right {
+.php-wrap-right {
     width: 600px;
 }
 
-.iop-wrap-right img {
+.php-wrap-right img {
     width: 100%;
     padding: 1rem;
     border-radius: 1rem;
 }
 
-.iop-wrap-left p {
+.php-wrap-left p {
     font-size: 12px;
     text-align: justify;
 }
 
 
 
-.iop-wrap2 {
+.php-wrap2 {
     flex-wrap: wrap-reverse ;
   }
 
@@ -43,7 +43,7 @@
 /* MEDIA QUERIES */
 
 @media screen and (max-width:1200px) {
-    .iop-wrap-left {
+    .php-wrap-left {
         width: 90%;
     }
 

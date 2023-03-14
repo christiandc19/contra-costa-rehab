@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
 import { Link as LinkRoll } from 'react-scroll'
 
+import './OpSection.css'
+
 
 import OpSection1 from '../../assets/OpSection1.jpg'
 import OpSection2 from '../../assets/OpSection2.jpg'
@@ -13,9 +15,9 @@ import Contact2 from '../contact/Contact2'
 const OpSection = () => {
   return (
     <>
-<div className='wrap'>
+<div className='op-wrap'>
     <Fade left>
-    <div className="box box-left">
+    <div className="op-wrap-left">
         <h1 className='header'>WHAT TO EXPECT DURING THE PROGRAM</h1>
         <br/>
         <p>Considered the final step in the treatment plan, the outpatient program has patients attend three group therapy sessions per week with one individual session as well. Other therapeutic options that are involved:</p>
@@ -40,8 +42,8 @@ const OpSection = () => {
     </div>
     </Fade>
     <Fade right>
-    <div className="box">
-        <img src={OpSection1} width="600px" height="500px" alt="Palm Springs Rehab Logo" loading="lazy" />
+    <div className="op-wrap-right">
+        <img src={OpSection1} alt="Outpatient Counselling Session" loading="lazy" />
     </div>
     </Fade>
 </div>
@@ -49,17 +51,17 @@ const OpSection = () => {
 
 {/* SECTION 2 */}
 
-<div className='wrap'>
+<div className='op-wrap op-wrap2'>
 
 <Fade left>
-    <div className="box">
-        <img src={OpSection2} width="600px" height="380px" alt="Palm Springs Rehab Logo" loading="lazy" />
+    <div className="op-wrap-right">
+        <img src={OpSection2} alt="Sober Living Houses" loading="lazy" />
     </div>
     </Fade>
 
 
     <Fade right>
-    <div className="box box-left">
+    <div className="op-wrap-left">
         <h1 className='header'>SOBER LIVING</h1>
         <br/> <br/>
         <p>For many reasons, patients don’t always have a stable home-environment to return to after treatment. For these cases, we offer sober living homes in which patients can continue to strengthen themselves even further post-treatment.   

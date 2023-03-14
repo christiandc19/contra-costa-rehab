@@ -19,11 +19,12 @@
 .mission-section p {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
+    padding: 1rem;
 }
 
 
 .mission-section h1 {
-    padding: 2rem 0;
+    padding: 1rem 0;
     font-size: 2rem;
     text-align: center;
     font-family: 'Montserrat', sans-serif;

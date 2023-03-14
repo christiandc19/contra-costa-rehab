@@ -12,9 +12,9 @@ import Contact2 from '../contact/Contact2'
 const IopSection = () => {
   return (
     <>
-<div className='wrap'>
+<div className='iop-wrap'>
     <Fade left>
-    <div className="box box-left">
+    <div className="iop-wrap-left">
         <h1 className='header'>WHY CHOOSE AN IOP?</h1>
         <br/>
         <p>It is common for those struggling with addiction to not respond well to  residential treatment options. An intensive outpatient program may be the best alternative, as it can offer a high level of care and more accountability (removing patients from access to drugs/alcohol, enabling peers, etc.).
@@ -36,8 +36,8 @@ const IopSection = () => {
     </div>
     </Fade>
     <Fade right>
-    <div className="box">
-        <img src={IopSection1} width="600px" height="500px" alt="Palm Springs Rehab Logo" loading="lazy" />
+    <div className="iop-wrap-right">
+        <img src={IopSection1} alt="IOP Counselling Session" loading="lazy" />
     </div>
     </Fade>
 </div>

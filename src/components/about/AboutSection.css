@@ -18,7 +18,7 @@
 
 .about-section p {
     font-family: 'Montserrat', sans-serif;
-    text-align: justify;
+    text-align: center;
     color: rgb(0, 0, 0);
     margin: 1rem 0;
     font-size: 14px;
@@ -27,7 +27,7 @@
 
 .about-section h1 {
     font-size: 1.5rem;
-    text-align: left;
+    text-align: center;
       margin: 1rem auto;
       font-family: 'Montserrat', sans-serif;
 }

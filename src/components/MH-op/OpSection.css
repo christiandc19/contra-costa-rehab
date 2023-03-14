@@ -1,40 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
 
-.iop-wrap {
+.op-wrap {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   padding: 3rem 0;
 }
 
-.iop-wrap-left {
-    width: 600px;
+.op-wrap-left {
+    width: 700px;
     padding: 1rem;
 }
 
-.iop-wrap-left h1 {
+.op-wrap-left h1 {
     font-size: 1.2rem;
     text-align: center;
 }
 
-.iop-wrap-right {
-    width: 600px;
+.op-wrap-right {
+    width: 500px;
 }
 
-.iop-wrap-right img {
+.op-wrap-right img {
     width: 100%;
     padding: 1rem;
-    border-radius: 1rem;
+    border-radius: 2rem;
 }
 
-.iop-wrap-left p {
-    font-size: 12px;
+.op-wrap-left p {
+    font-size: 14px;
     text-align: justify;
 }
 
 
 
-.iop-wrap2 {
+.op-wrap2 {
     flex-wrap: wrap-reverse ;
   }
 
@@ -43,7 +43,7 @@
 /* MEDIA QUERIES */
 
 @media screen and (max-width:1200px) {
-    .iop-wrap-left {
+    .op-wrap-left {
         width: 90%;
     }
 
