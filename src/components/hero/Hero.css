@@ -3,62 +3,29 @@
 
 .hero {
     width: 100%;
-    height: 90vh;
+    height: 100vh;
     position: relative;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background: rgba(39, 17, 2, 0.527);
+    background: url('../../assets/hero-bg-1.jpg') no-repeat center center/cover;
   }
   
   .hero:before {
     content: '';
     position: absolute;
-    background: url('../../assets/hero-bg.jpg') no-repeat center top/cover;
+    background: url('../../assets/home-bg.png') no-repeat center top/cover;
     height: 100%;
     width: 100%;
-    z-index: -1;
   }
-
-
-  .animate-charcter
-{
-   text-transform: uppercase;
-  background-image: linear-gradient(
-    -225deg,
-    #ffffff 0%,
-    #be6d0f 29%,
-    #ffffff 67%,
-    #f7f7f7 100%
-  );
-  background-size: auto auto;
-  background-clip: border-box;
-  background-size: 200% auto;
-  color: #fff;
-  background-clip: text;
-  text-fill-color: transparent;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: textclip 5s linear infinite;
-  display: inline-block;
-      font-size: 190px;
-}
-
-@keyframes textclip {
-  to {
-    background-position: 200% center;
-  }
-}
-
-
 
 .hero .hero-container {
-    top: 20%;
-    left: 8%;
+    top: 10%;
     position: absolute;
     align-items: center;
     text-align: left;
-    margin: 1rem;
+    padding: 1rem;
+    width: 100%;
 }
 
 .hero-logo {
@@ -67,21 +34,23 @@
 
 .hero h1 {
     font-size: 3.5rem;
-    text-align: left;
-    color: white;
+    text-align: center;
+    color: rgb(11, 87, 228);
     font-family: 'Montserrat', sans-serif;
 }
 
 .hero h2 {
     font-size: 1.5rem;
-    text-align: left;
-    color: white;
+    text-align: center;
+    color: rgb(68, 67, 67);
 }
 
 .hero-container p {
-    font-size: 18px;
-    text-align: left;
-    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+    color: rgb(11, 87, 228);
+    text-transform: uppercase;
 }
 
 .hero .hero-btn button {
@@ -107,19 +76,16 @@
     }
 
     .hero h1 {
-    font-size: 3rem;
+    font-size: 2.3rem;
     }
 
     .hero p {
         font-size: 12px;
     }
 
-    .hero .hero-container {
-        top: 30%;
-        left: 0%;
-        width: auto;
+    .hero{
+    height: 80vh;
     }
-
 
 
 }

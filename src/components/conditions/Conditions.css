@@ -1,0 +1,35 @@
+.conditions {
+    background: url('../../assets/hero-bg-1.jpg') no-repeat center top/cover;
+    padding: 3rem 0;
+
+}
+
+.ConditionsLogosContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 7rem;
+    padding: 3rem 0rem 5rem 0;
+}
+
+.condition-icons-header {
+    text-align: center;
+    padding: 1rem;
+}
+
+.condition-icons-header h1 {
+    padding: 1rem;
+}
+
+
+.conditions-icons {
+text-align: center;
+}
+
+.conditions-icons p {
+    background-color: rgb(16, 98, 165);
+    padding: 1rem;
+    margin-bottom: -3rem;
+    border-radius: 5px;
+    color: white;
+}

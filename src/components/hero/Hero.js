@@ -1,9 +1,7 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
 import './Hero.css'
 
-// import BgVideo from '../../assets/hero-vbg.mp4'
 
 import waves from '../../assets/waves.svg'
 
@@ -24,19 +22,17 @@ const Hero = () => {
 
             <div className="hero-container">
                 <div className="content">
-                        <h1 className="animate-charcter">CONTRA COSTA <br/> REHAB</h1>
+                <Fade right>
+
+                        <h1 className="animate-charcter">CONTRA COSTA REHAB</h1>
+                        </Fade>
+
                     <Fade left>
-                        <h2 className='subtitle'>Substance Abuse Addiction and <br/>Mental Health Treatment Facility</h2>
+                        <h2 className='subtitle'>MENTAL HEALTH TREATMENT FACILITY</h2>
                     </Fade>
-                        <br />
-                        <div className='hero-btn'>
-                        <Link to="/contact">
-                        <button>Get an Appointment</button>
-                    </Link>
-                    </div>
-                    <br />
+       
                     <Fade bottom>
-                        <p>Find your happiness and learn to put it first.</p>
+                        <p>"Start your treatment journey with us"</p>
                     </Fade>
                 </div>
             </div>

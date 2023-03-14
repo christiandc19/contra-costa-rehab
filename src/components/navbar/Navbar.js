@@ -55,16 +55,10 @@ const Navbar = () => {
                     
                     <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> Program <FiChevronDown /> </Link>
                     <ul className={boxClassSubMenu.join(' ')} id='submenu-item'> 
-                            <li className='submenu-header'> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/substance-abuse`}> SUBSTANCE ABUSE </NavLink> </li>
-                            <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/substance-abuse-php`}> Partial Hospitalization Program</NavLink> </li>
-                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/substance-abuse-iop`}> Intensive Outpatient Program </NavLink> </li>
-                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/substance-abuse-op`}> Outpatient Program </NavLink> </li>
-                            <br/>
-                            <li className='submenu-header'> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/mental-health`}> MENTAL HEALTH </NavLink> </li>
+                            {/* <li className='submenu-header'> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/mental-health`}> MENTAL HEALTH </NavLink> </li> */}
                             <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/mental-health-php`}> Partial Hospitalization Program</NavLink> </li>
                             <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/mental-health-iop`}> Intensive Outpatient Program </NavLink> </li>
                             <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/mental-health-op`}> Outpatient Program </NavLink> </li>
-                            <br/>
                             <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/Jobs`}> Jobs Program </NavLink> </li>
 
                         </ul>

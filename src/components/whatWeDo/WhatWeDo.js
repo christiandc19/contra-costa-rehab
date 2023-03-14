@@ -13,6 +13,20 @@ const WhatWeDo = () => {
   return (
     <>
 <div className='wrap'>
+
+
+    <Fade right>
+    <div className="box-right">
+        <img src={WhatWeDoImg}  alt="nurse" loading="lazy" />
+    </div>
+
+    <div className="box-right2">
+        <img src={WhatWeDoImg2} alt="Customer Service Representative" loading="lazy" />
+    </div>
+    </Fade>
+
+
+
     <Fade left>
     <div className="box left">
         <h1 className='header'>WHAT WE DO</h1>
@@ -34,15 +48,6 @@ const WhatWeDo = () => {
     </div>
     </Fade>
 
-    <Fade right>
-    <div className="box-right">
-        <img src={WhatWeDoImg} width="350px" height="520px" alt="Conselling Session with a patient" loading="lazy" />
-    </div>
-
-    <div className="box-right2">
-        <img src={WhatWeDoImg2} width="250px" height="500px" alt="Conselling Session with a patient" loading="lazy" />
-    </div>
-    </Fade>
 
     
 </div>

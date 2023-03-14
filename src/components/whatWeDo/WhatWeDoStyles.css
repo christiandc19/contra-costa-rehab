@@ -2,9 +2,10 @@
 
 .wrap {
   display: flex;
-  flex-wrap: wrap ;
+  flex-wrap: wrap-reverse ;
   justify-content: space-evenly;
   margin: 5rem 0 0 0;
+  padding: 3rem 0;
 }
 
 .box {
@@ -19,14 +20,21 @@
     text-align: center;
 }
 
-.box-right img{
-    max-width: auto;
+.box-right img {
+    width: 100%;
 }
 
+
 .box-right2 {
-    width: 250px;
+    width: 500px;
+    text-align: center;
     display: none;
 }
+
+.box-right2 img{
+    width: 100%;
+}
+
 
 .wrap .header {
     text-align: center;
@@ -46,6 +54,7 @@
 .box-btn {
     text-align: center;
 }
+
 
 /* MEDIA QUERIES */
 
@@ -82,3 +91,4 @@
 }
 
 }
+
