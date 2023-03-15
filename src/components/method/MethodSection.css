@@ -51,17 +51,25 @@
     text-align: justify;
     padding: 1rem;
     font-family: 'Poppins', sans-serif;
+}
 
+.wrap-reverse {
+    flex-wrap: wrap-reverse;
+}
+
+.treatment-section-activities  {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
 }
 
 .treatment-section-activities .treatment-left {
-    width: 100%;
+    width: 600px;
+    margin: auto;
 }
 
 .treatment-section-activities .treatment-right {
-    width: 800px;
-    margin: auto;
-    padding: 1rem;
+    width: 600px;
 }
 
 .treatment-section-activities .treatment-right img{
@@ -71,13 +79,6 @@
 .treatment-section-activities p {
 padding: 1rem;
 text-align: justify;
-}
-
-.activity-box-main {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;    
-    gap: 1rem;
 }
 
 .treatment-section-activities h1 {

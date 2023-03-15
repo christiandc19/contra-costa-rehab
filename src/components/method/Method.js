@@ -3,7 +3,7 @@ import Fade from 'react-reveal/Fade';
 import './Method.css'
 
 import Wave from '../../assets/waves.svg'
-
+import MethodHero from "../../assets/method.png"
 
 const Method = () => {
     return (
@@ -15,7 +15,14 @@ const Method = () => {
             </div>
                     <div className="method-content">
                         <Fade right>
-                            <h1>OUR METHOD</h1>
+                            <div className='method-content-left'>
+                                <h1>OUR METHOD</h1>
+                            </div>
+
+                            <div className='method-content-right'>
+                                <img src={MethodHero} alt='group of friends' />
+                            </div>
+                            
                         </Fade>
                         
                     </div>

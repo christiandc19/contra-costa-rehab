@@ -11,6 +11,19 @@
   gap: 2rem;
 }
 
+
+.cards-header .cards-header-left {
+  padding: 1rem;
+}
+
+.cards-header .cards-header-left p {
+  font-size: 14px;
+}
+
+.cards-header .cards-header-left h3 {
+  font-size: 1.5rem;
+}
+
 .main-cards-header h1{
   padding: 3rem 1rem 0 1rem;
   text-align: center;
@@ -32,17 +45,15 @@
   width:300px;
   height:320px;
   margin:10px;
-  /* background-color:#444549; */
   display:inline-block;
   background-size:cover;
   position:relative;
   transition: all 0.4s ease-out;
-  /* box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.44); */
   overflow:hidden;
   text-align: center;
   font-family:'Roboto';
   border-radius: 10px;
-  /* box-shadow: 10px 5px 5px rgb(129, 129, 129); */
+  box-shadow: 10px 5px 5px rgba(129, 129, 129, 0.438);
 }
 
 .tile img
