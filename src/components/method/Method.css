@@ -15,7 +15,6 @@
     flex-wrap: wrap;
     justify-content: center;
     margin: auto;
-    padding: 3rem;
 }
 
 .method-content-left {
@@ -37,6 +36,7 @@
 
 .method-content-right img{
   width: 100%;
+  margin-top: 10rem;
 }
 
 /* MEDIA QUERIES - HERO */
@@ -56,6 +56,15 @@
 
 .method-content-right {
   width: 500px;
+}
+
+.method-content h1 {
+  margin-top: 3rem;
+}
+
+.method-content-right img{
+  width: 100%;
+  margin-top: 0;
 }
 
 }
