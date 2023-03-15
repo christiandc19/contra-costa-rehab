@@ -14,15 +14,16 @@ const Method = () => {
                 <img src={Wave} loading="lazy" alt='wave divider' repeat-x/>
             </div>
                     <div className="method-content">
-                        <Fade right>
+                        <Fade left>
                             <div className='method-content-left'>
                                 <h1>OUR METHOD</h1>
                             </div>
+                        </Fade>
 
+                        <Fade right>
                             <div className='method-content-right'>
                                 <img src={MethodHero} alt='group of friends' />
                             </div>
-                            
                         </Fade>
                         
                     </div>
