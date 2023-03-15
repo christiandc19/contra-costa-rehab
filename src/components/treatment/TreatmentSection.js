@@ -3,17 +3,10 @@ import React from 'react'
 import TreatmentImage1 from '../../assets/treatment-1.jpg'
 import TreatmentImage2 from '../../assets/treatment-2.jpg'
 
+import Activities from '../../assets/activities.png'
+
 import { FaRegStar } from 'react-icons/fa';
-import { RiMovieFill } from 'react-icons/ri';
-import { GiBowlingStrike } from 'react-icons/gi';
-import { FaUmbrellaBeach } from 'react-icons/fa';
-import { FaGolfBall } from 'react-icons/fa';
-import { IoIosBonfire } from 'react-icons/io';
-import { GiSparkles } from 'react-icons/gi';
-import { MdSportsSoccer } from 'react-icons/md';
-import { FaHiking } from 'react-icons/fa';
-import { MdPool } from 'react-icons/md';
-import { MdVolunteerActivism } from 'react-icons/md';
+
 
 
 import './TreatmentSection.css'
@@ -68,87 +61,17 @@ const TreatmentSection = () => {
 
 
     <div className='container treatment-section-activities'>
+        <div className='treatment-left'>
         <h1>RECREATIONS</h1>
-        <p>
-        As mentioned above, the weekly summary reflective of the session between client and counselor/therapist will measure each treatment plan goal on a weekly basis. The client will also initial the weekly summary as this is a review of the treatment plan goals and objectives. Furthermore, clients may have new issues come up during treatment that were not identified at the time of assessment. Drug and alcohol counselors/therapists will develop new treatment plan goals as needed using this protocol whenever necessary.
-        </p>
+            <p>
+                As mentioned above, the weekly summary reflective of the session between client and counselor/therapist will measure each treatment plan goal on a weekly basis. The client will also initial the weekly summary as this is a review of the treatment plan goals and objectives. Furthermore, clients may have new issues come up during treatment that were not identified at the time of assessment. Drug and alcohol counselors/therapists will develop new treatment plan goals as needed using this protocol whenever necessary.
+            </p>
+        </div>
+
+        <div className='treatment-right'>
+            <img src={Activities} alt='activities'/>
+        </div>
     </div>
-
-
-    <div className='container activity-box-main'>
-
-        <div className='activity-box'>
-            <div className='activity-icon'>
-                <p><span> <RiMovieFill /></span></p>
-                <p>MOVIES</p>
-            </div>
-        </div>
-
-        <div className='activity-box'>
-            <div className='activity-icon'>
-                <p><span> <GiBowlingStrike /></span></p>
-                <p>BOWLING</p>
-            </div>
-        </div>
-
-        <div className='activity-box'>
-            <div className='activity-icon'>
-                <p><span> <FaUmbrellaBeach /></span></p>
-                <p>BEACH LAKE</p>
-            </div>
-        </div>
-
-        <div className='activity-box'>
-            <div className='activity-icon'>
-                <p><span> <FaGolfBall /></span></p>
-                <p>MINIATURE GOLF</p>
-            </div>
-        </div>
-
-        <div className='activity-box'>
-            <div className='activity-icon'>
-                <p><span> <IoIosBonfire /></span></p>
-                <p>BONFIRE</p>
-            </div>
-        </div>
-
-        <div className='activity-box'>
-            <div className='activity-icon'>
-                <p><span> <GiSparkles /></span></p>
-                <p>THEME PARKS</p>
-            </div>
-        </div>
-
-        <div className='activity-box'>
-            <div className='activity-icon'>
-                <p><span> <MdSportsSoccer /></span></p>
-                <p>SPORTING EVENTS</p>
-            </div>
-        </div>
-
-        <div className='activity-box'>
-            <div className='activity-icon'>
-                <p><span> <FaHiking /></span></p>
-                <p>HIKING</p>
-            </div>
-        </div>
-
-        <div className='activity-box'>
-            <div className='activity-icon'>
-                <p><span> <MdPool /></span></p>
-                <p>POOL</p>
-            </div>
-        </div>
-
-        <div className='activity-box'>
-            <div className='activity-icon'>
-                <p><span> <MdVolunteerActivism /></span></p>
-                <p>FUND RAISERS</p>
-            </div>
-        </div>
-
-    </div>
-
 
     </>
   )
