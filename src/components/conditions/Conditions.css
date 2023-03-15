@@ -19,6 +19,7 @@
 
 .condition-icons-header h1 {
     padding: 1rem;
+    color: rgb(65, 66, 66);
 }
 
 
@@ -27,7 +28,7 @@ text-align: center;
 }
 
 .conditions-icons p {
-    background-color: rgb(16, 98, 165);
+    background-color: rgb(9, 147, 189);
     padding: 1rem;
     margin-bottom: -3rem;
     border-radius: 5px;
