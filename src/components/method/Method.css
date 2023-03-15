@@ -15,13 +15,14 @@
     flex-wrap: wrap;
     justify-content: center;
     margin: auto;
-    padding-top: 3rem;
+    padding: 3rem;
 }
 
 .method-content-left {
   width: 500px;
   margin: auto;
   text-align: center;
+  padding: 3rem;
 }
 
 .method-content-left h1{
@@ -31,21 +32,30 @@
 
 .method-content-right {
   width: 600px;
-
+  padding: 0 3rem;
 }
 
 .method-content-right img{
   width: 100%;
-  padding: 1rem;
 }
 
 /* MEDIA QUERIES - HERO */
 
-@media screen and (max-width:940px) {
+@media screen and (max-width:1200px) {
 
 .method h1 {
     font-size: 3rem;
     text-align: center;
+}
+
+.method-content-left {
+  width: 100%;
+  margin-top: 2rem;
+  padding: 0rem;
+}
+
+.method-content-right {
+  width: 500px;
 }
 
 }
