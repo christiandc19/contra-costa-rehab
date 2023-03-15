@@ -27,11 +27,14 @@ Methods used by Contra Costa Rehab are non-invasive, distinct, and successful in
 <br/><br/>
 
 The physical, mental, and spiritual imbalances have been found to be restored by its healing methods. Our design of mental health treatment is custom-fit to every individual. Compared to the programs which are commonly used, we are a firm believer that we can reach the full potential of our well-being by healing the body, mind and spirit. 
+</p>
 
-      </p>
+<div className='tile-header container'>
+<h1>Treatment Plan</h1>
+</div>
+
       <p>All treatment clients will have a recovery/treatment plan developed within 30 days of admission. Measurement and re-assessment of treatment plan progress happen on a weekly basis through the weekly summary. In the weekly summary, the drug and alcohol counselor will ensure that action steps to be taken by client or counselor are on target and that the action step achievements will enable resolution of the objective. All treatment plans are reviewed by and signed off on by the clinical director. </p>
       </div>
-
 
     <div className='treatment-section-tile'>
         <div className='tile-description'>
@@ -70,10 +73,12 @@ The physical, mental, and spiritual imbalances have been found to be restored by
         </div>
     </div>
 
+    <div className='tile-header container'>
+<h1>Recreations</h1>
+</div>
 
     <div className='container treatment-section-activities'>
         <div className='treatment-left'>
-        <h1>RECREATIONS</h1>
             <p>
                 As mentioned above, the weekly summary reflective of the session between client and counselor/therapist will measure each treatment plan goal on a weekly basis. The client will also initial the weekly summary as this is a review of the treatment plan goals and objectives. Furthermore, clients may have new issues come up during treatment that were not identified at the time of assessment. Drug and alcohol counselors/therapists will develop new treatment plan goals as needed using this protocol whenever necessary.
             </p>

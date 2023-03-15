@@ -15,12 +15,17 @@ const Cards = () => {
   return (
     <>
 
+    <div className='main-cards-header container'>
+      <h1>WELCOME TO CONTRA COSTA REHAB</h1>
+      <h2>“Taking a step today will help you lead a better tomorrow.”</h2>
+
+    </div>
+
+
+
             <div className="cards-header container">
 
             <div class="card-wrap">
-
-
-
                 <div className='cards-header-left'>
                   <h1>OUR SERVICES</h1>
                   <h3>Contra Costa Rehab makes getting treatment possible </h3><br/>

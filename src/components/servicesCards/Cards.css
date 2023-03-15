@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@300&display=swap');
 
 .card-wrap
 {
@@ -8,6 +9,22 @@
   justify-content: center;
   align-items:space-around;
   gap: 2rem;
+}
+
+.main-cards-header h1{
+  padding: 3rem 1rem 0 1rem;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  color: rgb(65, 66, 66);
+}
+
+.main-cards-header h2{
+  padding: 0 1rem 0 1rem;
+  text-align: center;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 1.5rem;
+  color: rgb(207, 95, 4);
 }
 
 .tile
@@ -79,7 +96,6 @@
 }
 
 .tile:hover {
-/*   background-color:#99aeff; */
 box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
   transform:scale(1.05);
 } 
@@ -106,7 +122,7 @@ box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
     flex-wrap: wrap;
     width: auto;
     text-align: justify;
-    margin: 5rem auto;
+    margin: 2rem auto;
     padding: 1rem;
 }
 
@@ -115,6 +131,12 @@ box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
   text-align: left;
 }
 
+.cards-header-left h1 {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  color: rgb(65, 66, 66);
+}
 
 .cards-header h1 {
   font-size: 1.5rem;

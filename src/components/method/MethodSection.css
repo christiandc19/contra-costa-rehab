@@ -13,7 +13,7 @@
     padding: 3rem 1rem;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: rgb(65, 66, 66);
 }
 
@@ -24,6 +24,13 @@
     margin: 1rem 0;
     gap: 2rem;
 }
+
+.tile-header h1{
+    padding: 1rem 1rem;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: rgb(65, 66, 66);}
 
 .treatment-section-tile .tile-image {
     width: 600px;
