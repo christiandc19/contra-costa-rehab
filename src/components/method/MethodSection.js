@@ -9,7 +9,7 @@ import { FaRegStar } from 'react-icons/fa';
 
 
 
-import './TreatmentSection.css'
+import './MethodSection.css'
 
 
 const TreatmentSection = () => {

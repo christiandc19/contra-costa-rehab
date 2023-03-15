@@ -26,7 +26,7 @@
 }
 
 .treatment-section-tile .tile-image {
-    width: 500px;
+    width: 600px;
     padding: 1rem;
 }
 
@@ -36,13 +36,15 @@
 }
 
 .treatment-section-tile .tile-description {
-    width: 500px;
+    width: 600px;
 }
 
 .treatment-section-tile .tile-description p {
     width: 100%;
     text-align: justify;
     padding: 1rem;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 .treatment-section-activities .treatment-left {

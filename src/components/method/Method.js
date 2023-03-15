@@ -1,19 +1,19 @@
 import React from 'react'
 import Fade from 'react-reveal/Fade';
-import './Treatment.css'
+import './Method.css'
 
 import Wave from '../../assets/waves.svg'
 
 
-const Treatment = () => {
+const Method = () => {
     return (
         <>
 
-        <div className='treatment main-menu'>
+        <div className='method main-menu'>
             <div className='hero-divider'>
                 <img src={Wave} loading="lazy" alt='wave divider' repeat-x/>
             </div>
-                    <div className="treatment-content">
+                    <div className="method-content">
                         <Fade right>
                             <h1>OUR METHOD</h1>
                         </Fade>
@@ -24,4 +24,4 @@ const Treatment = () => {
     )
 }
 
-export default Treatment
+export default Method

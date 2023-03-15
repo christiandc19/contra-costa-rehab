@@ -7,6 +7,11 @@
   padding: 3rem 0;
 }
 
+.iop-header {
+    text-align: center;
+    padding: 2rem;
+}
+
 .iop-wrap-left {
     width: 600px;
     padding: 1rem;
@@ -31,8 +36,6 @@
     font-size: 12px;
     text-align: justify;
 }
-
-
 
 .iop-wrap2 {
     flex-wrap: wrap-reverse ;
