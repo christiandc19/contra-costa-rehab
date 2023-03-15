@@ -60,13 +60,6 @@
 
 
 
-
-
-  
-
-
-
-
 /* MEDIA QUERIES */
 
 @media screen and (max-width:940px) {
@@ -82,10 +75,5 @@
     .hero p {
         font-size: 12px;
     }
-
-    .hero{
-    height: 80vh;
-    }
-
 
 }

@@ -2,40 +2,24 @@
 
 .method {
     width: 100%;
-    height: 80vh;
-    position: relative;
+    height: 90vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background: rgba(146, 144, 146, 0.247);
+    background: url('../../assets/hero-bg-1.jpg') no-repeat center center/cover;
   }
   
-  .method:before {
-    content: '';
-    position: absolute;
-    background: url('../../assets/hero-bg-1.jpg') no-repeat center center/cover;
-    height: 100%;
-    width: 100%;
-    z-index: -1;
-  }
 
 .method .method-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    text-align: center;
-    position: absolute;
-    top: 20%;
+    margin: auto;
+    padding-top: 3rem;
 }
 
-.method-content h1 {
-    font-size: 4rem;
-    font-family: 'Montserrat', sans-serif;
-    color: rgb(65, 66, 66);
-  }
-
 .method-content-left {
-  width: 600px;
+  width: 500px;
   margin: auto;
   text-align: center;
 }
@@ -43,15 +27,16 @@
 .method-content-left h1{
   text-align: center;
   color: rgb(65, 66, 66);
-
 }
 
 .method-content-right {
   width: 600px;
+
 }
 
 .method-content-right img{
   width: 100%;
+  padding: 1rem;
 }
 
 /* MEDIA QUERIES - HERO */

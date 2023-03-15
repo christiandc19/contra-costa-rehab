@@ -2,7 +2,6 @@ import React from 'react'
 import Fade from 'react-reveal/Fade';
 import './Method.css'
 
-import Wave from '../../assets/waves.svg'
 import MethodHero from "../../assets/method.png"
 
 const Method = () => {
@@ -10,9 +9,9 @@ const Method = () => {
         <>
 
         <div className='method main-menu'>
-            <div className='hero-divider'>
-                <img src={Wave} loading="lazy" alt='wave divider' repeat-x/>
-            </div>
+
+
+
                     <div className="method-content">
                         <Fade left>
                             <div className='method-content-left'>
@@ -25,8 +24,8 @@ const Method = () => {
                                 <img src={MethodHero} alt='group of friends' />
                             </div>
                         </Fade>
-                        
                     </div>
+
                 </div>
         </>
     )
