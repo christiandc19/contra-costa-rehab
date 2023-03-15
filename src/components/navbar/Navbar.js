@@ -65,7 +65,7 @@ const Navbar = () => {
                     </li>
 
 
-                    <li><Link to='/treatment'>Our Approach</Link> </li>
+                    <li><Link to='/treatment'>Our Method</Link> </li>
 
 
                     <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> Treatments <FiChevronDown /> </Link>

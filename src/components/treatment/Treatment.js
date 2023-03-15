@@ -15,7 +15,7 @@ const Treatment = () => {
             </div>
                     <div className="treatment-content">
                         <Fade right>
-                            <h1>TREATMENT</h1>
+                            <h1>OUR METHOD</h1>
                         </Fade>
                         
                     </div>

@@ -15,7 +15,7 @@ const Footer = () => {
             <div className="container">
                 <div className="top">
                     <div className="logo-footer">
-                    <img src={logo} width="150px" height="90px" alt="Palm Springs Rehab Logo" loading="lazy"/>
+                    <img src={logo} width="130px" height="60px" alt="Palm Springs Rehab Logo" loading="lazy"/>
                     </div>
                     <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
                         <BsFillArrowUpCircleFill className='icon' />
@@ -38,7 +38,7 @@ const Footer = () => {
 
 
                         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/'><p>Programs</p></Link>
+                        <Link to='/mental-health'><p>Programs</p></Link>
                         </LinkRoll>
                     </div>
 
@@ -51,7 +51,7 @@ const Footer = () => {
                         </LinkRoll>
 
                         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/treatment'><p>Treatment</p></Link>
+                        <Link to='/treatment'><p>Our Method</p></Link>
                         </LinkRoll>
 
                         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
