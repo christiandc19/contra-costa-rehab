@@ -24,7 +24,7 @@ const Cards = () => {
                 <div className='cards-header-left'>
                   <h1>OUR SERVICES</h1>
                   <h3>Contra Costa Rehab makes getting treatment possible </h3><br/>
-                  <p>At Contra Costa Rehab Treatment Center, clients receive individual therapy alongside a range of additional treatments, including relapse prevention, trauma therapy, mindfulness meditation, transportation, yoga, and more. We offer support that clients need to allow them to gradually go back to treatment. </p>
+                  <p>At Contra Costa Rehab Treatment Center, clients receive individual therapy alongside a range of additional treatments, including relapse prevention, trauma therapy, mindfulness meditation, yoga, and more. We offer support that clients need to allow them to gradually go back to treatment. </p>
               </div>
             
 

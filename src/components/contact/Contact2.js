@@ -30,7 +30,7 @@ const ContactForm = () => {
 
     <div className="contact2-header contact2-container">
         <h1>DO YOU NEED URGENT HELP?</h1>
-        <p>Our Addiction and Recovery Support team is available 24 hours a day 7 Days a week.</p>
+        <p>Our Mental Health Support team is available 24 hours a day 7 Days a week.</p>
     </div>
 
 
@@ -50,7 +50,7 @@ const ContactForm = () => {
         <div class="phone details">
           <i class="fas fa-phone-alt"></i>
           <div class="topic">Phone</div><br/>
-          <div class="text-one"><a href="tel:3234195733"> +1 (123) 456-7890</a></div>
+          <div class="text-one"><a href="tel:3237920502"> +1 (323) 792-0502</a></div>
         </div>
 
         <div class="email details">
