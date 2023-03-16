@@ -37,11 +37,6 @@
     color: white;
 }
 
-.asd h3 {
-    color: white;
-    font-size: 1.5rem;
-    font-family: 'Montserrat', sans-serif;
-}
 
 /* MEDIA QUERIES */
 
@@ -49,10 +44,6 @@
 
 .asd h1 {
     font-size: 2rem;
-}
-
-.asd h3 {
-    font-size: 1rem;
 }
 
 }

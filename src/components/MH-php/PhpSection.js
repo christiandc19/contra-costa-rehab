@@ -13,7 +13,7 @@ const PhpSection = () => {
 <div className='php-wrap'>
     <Fade left>
     <div className="php-wrap-left">
-        <h1 className='header'>WHAT IS PARTIAL HOSPITALIZATION PROGRAM</h1>
+        <h1 className='header'>WHAT IS PARTIAL HOSPITALIZATION PROGRAM?</h1>
         <br/>
         <p>A treatment plan that can be highly beneficial for those who have supportive family members at home and responsibilities that they must maintain during the week, the partial hospitalization program offers structured addiction treatment that runs several hours daily throughout the week. Through this treatment option, you can participate in treatment sessions during the day and return to your home at night. 
         <br /> <br />

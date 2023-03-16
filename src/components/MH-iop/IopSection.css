@@ -7,6 +7,10 @@
   padding: 3rem 0;
 }
 
+.wrap-reverse {
+    flex-wrap: wrap-reverse;
+}
+
 .iop-header {
     text-align: center;
     padding: 2rem;
@@ -18,8 +22,9 @@
 }
 
 .iop-wrap-left h1 {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     text-align: center;
+    color: rgb(15, 15, 15);
 }
 
 .iop-wrap-right {
@@ -33,7 +38,7 @@
 }
 
 .iop-wrap-left p {
-    font-size: 12px;
+    font-size: 16px;
     text-align: justify;
 }
 

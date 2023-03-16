@@ -37,22 +37,12 @@
     color: white;
 }
 
-.BipolarDisorder h3 {
-    color: white;
-    font-size: 1.5rem;
-    font-family: 'Montserrat', sans-serif;
-}
-
 /* MEDIA QUERIES */
 
 @media screen and (max-width:940px) {
 
 .BipolarDisorder h1 {
     font-size: 2rem;
-}
-
-.BipolarDisorder h3 {
-    font-size: 1rem;
 }
 
 }

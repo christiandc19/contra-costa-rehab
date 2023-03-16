@@ -10,15 +10,20 @@
 .php-wrap-left {
     width: 600px;
     padding: 1rem;
+    margin: auto;
+
 }
 
 .php-wrap-left h1 {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     text-align: center;
+    color: rgb(15, 15, 15);
+
 }
 
 .php-wrap-right {
     width: 600px;
+    margin: auto;
 }
 
 .php-wrap-right img {
@@ -28,7 +33,7 @@
 }
 
 .php-wrap-left p {
-    font-size: 12px;
+    font-size: 16px;
     text-align: justify;
 }
 
