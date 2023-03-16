@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
+.treatment-section-overview {
+    padding: 3rem;
+}
+
 .treatment-section-overview p {
     padding: 1rem;
     text-align: center;
@@ -10,11 +14,16 @@
 }
 
 .treatment-section-overview h1 {
-    padding: 3rem 1rem;
+    padding: 1rem 1rem;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 2rem;
     color: rgb(65, 66, 66);
+}
+
+.treatment-plan {
+    background: url('../../assets/hero-bg-1.jpg') no-repeat center center/cover;
+    padding: 3rem;
 }
 
 .treatment-section-tile {
@@ -23,6 +32,10 @@
     justify-content: center;
     margin: 1rem 0;
     gap: 2rem;
+}
+
+.section3 {
+    padding: 3rem;
 }
 
 .tile-header h1{
@@ -61,11 +74,13 @@
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
+padding: 3rem 0;
+gap: 2rem;
+background: url('../../assets/hero-bg-1.jpg') no-repeat center center/cover;
 }
 
 .treatment-section-activities .treatment-left {
     width: 600px;
-    margin: auto;
 }
 
 .treatment-section-activities .treatment-right {

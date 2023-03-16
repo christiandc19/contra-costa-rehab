@@ -20,7 +20,7 @@ const Method = () => {
                         </Fade>
 
                         <Fade right>
-                            <div className='method-content-right'>
+                          <div className='method-content-right'>
                                 <img src={MethodHero} alt='group of friends' />
                             </div>
                         </Fade>
