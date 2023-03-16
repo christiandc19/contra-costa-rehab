@@ -39,7 +39,7 @@ const WhatWeDo = () => {
     
         <div className='box-btn'>
         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-            <Link to="/treatment">
+            <Link to="/method">
                <button>Learn More</button>
             </Link>
         </LinkRoll>
