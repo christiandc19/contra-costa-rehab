@@ -24,52 +24,66 @@ const Conditions = () => {
     <p>Our compassionate staff utilizes established medical treatments to decrease withdrawal effects in an empathetic environment. In the meantime, you’ll receive behavioral health care from experienced counselors to boost your chances for an effective recovery.</p>
 </div>
 
-<Fade bottom>
 
 <div className='ConditionsLogosContainer container'>
 
+<Fade bottom>
 <div className='conditions-icons'>
 <ConditionsLogos Image={ADHD} />
 <p>ADHD</p>
 </div>
+</Fade>
 
+<Fade top>
 <div className='conditions-icons'>
 <ConditionsLogos Image={AngerDisorder} />
 <p>Anger Disorder</p>
 </div>
+</Fade>
 
+<Fade bottom>
 <div className='conditions-icons'>
 <ConditionsLogos Image={AnxietyDisorder} />
 <p>Anxiety Disorder</p>
 </div>
+</Fade>
 
+<Fade top>
 <div className='conditions-icons'>
 <ConditionsLogos Image={BipolarDisorder} />
 <p>Bipolor Disorder</p>
 </div>
+</Fade>
 
+<Fade bottom>
 <div className='conditions-icons'>
 <ConditionsLogos Image={Depression} />
 <p>Depression</p>
 </div>
+</Fade>
 
+<Fade top>
 <div className='conditions-icons'>
 <ConditionsLogos Image={PTSD} />
 <p>PTSD</p>
 </div>
+</Fade>
 
+<Fade bottom>
 <div className='conditions-icons'>
 <ConditionsLogos Image={SCHIZOAFFECTIVE } />
 <p>Schizoaffective </p>
 </div>
+</Fade>
 
+<Fade top>
 <div className='conditions-icons'>
 <ConditionsLogos Image={SCHIZOPHRENIA } />
 <p>Schizophrenia</p>
 </div>
+</Fade>
 
 </div>
-</Fade>
 
 </div>
 
