@@ -17,7 +17,7 @@ const IopSection = () => {
 
 <div className='iop-header'>
     <h1 className='header'>INTENSIVE OUTPATIENT PROGRAM (IOP)</h1>
-    <p>No matter what type of addiction or mental health condition you are dealing with, there’s something for everyone at Contra Costa.</p>
+    <p>No matter what type of mental health condition you are dealing with, there’s something for everyone at Contra Costa.</p>
 </div>
 
 
