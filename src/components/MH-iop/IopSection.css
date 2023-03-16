@@ -7,8 +7,10 @@
   padding: 3rem 0;
 }
 
-.wrap-reverse {
+.iop-wrap-reverse {
     flex-wrap: wrap-reverse;
+    background: url('../../assets/hero-bg-1.jpg') no-repeat center center/cover;
+
 }
 
 .iop-header {

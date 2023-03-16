@@ -18,7 +18,7 @@ const OpSection = () => {
 <div className='op-wrap'>
     <Fade left>
     <div className="op-wrap-left">
-        <h1 className='header'>WHAT TO EXPECT DURING THE PROGRAM</h1>
+        <h1>WHAT TO EXPECT DURING THE PROGRAM</h1>
         <br/>
         <p>Considered the final step in the treatment plan, the outpatient program has patients attend three group therapy sessions per week with one individual session as well. Other therapeutic options that are involved:</p>
         <br />

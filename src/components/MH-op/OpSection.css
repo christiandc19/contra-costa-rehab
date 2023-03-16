@@ -15,6 +15,7 @@
 .op-wrap-left h1 {
     font-size: 1.2rem;
     text-align: center;
+    color: rgb(15, 15, 15);
 }
 
 .op-wrap-right {
@@ -36,6 +37,7 @@
 
 .op-wrap2 {
     flex-wrap: wrap-reverse ;
+    background: url('../../assets/hero-bg-1.jpg') no-repeat center center/cover;
   }
 
 

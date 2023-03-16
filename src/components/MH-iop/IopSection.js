@@ -47,7 +47,7 @@ const IopSection = () => {
 {/* WRAP 2 */}
 
 
-<div className='iop-wrap wrap-reverse'>
+<div className='iop-wrap iop-wrap-reverse'>
 
     <Fade right>
             <div className="iop-wrap-right">
