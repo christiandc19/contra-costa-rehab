@@ -2,22 +2,11 @@ import React from 'react'
 import Fade from 'react-reveal/Fade';
 import './Hero.css'
 
-
-import waves from '../../assets/waves.svg'
-
-
-
 const Hero = () => {
     return (
 <>        
-
-
-
         <div className='hero'>
 
-        <div className='hero-divider'>
-                <img src={waves} loading="lazy" repeat-x alt='wave divider'/>
-            </div>
 
 
             <div className="hero-container">

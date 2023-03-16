@@ -20,7 +20,7 @@ const Conditions = () => {
 <div className='conditions'>
 
 <div className='condition-icons-header container'>
-    <h1>CONDITIONS WE TREAT</h1>
+    <h1>Types of Mental Health Disorders Do We Treat</h1>
     <p>Our compassionate staff utilizes established medical treatments to decrease withdrawal effects in an empathetic environment. In the meantime, you’ll receive behavioral health care from experienced counselors to boost your chances for an effective recovery.</p>
 </div>
 
