@@ -84,3 +84,20 @@ text-align: justify;
 .treatment-section-activities h1 {
     text-align: center;
 }
+
+
+.treatment-section {
+    padding: 1rem;
+}
+
+.treatment-section h1 {
+    color: rgb(65, 66, 66);
+    padding: 2rem 0;
+}
+
+.treatment-section p {
+    font-size: 16px;
+    text-align: left;
+
+}  
+

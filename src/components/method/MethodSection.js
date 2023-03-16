@@ -7,8 +7,6 @@ import Activities from '../../assets/activities.png'
 
 import { FaRegStar } from 'react-icons/fa';
 
-
-
 import './MethodSection.css'
 
 
@@ -91,6 +89,38 @@ The physical, mental, and spiritual imbalances have been found to be restored by
         </div>
     </div>
 
+
+
+
+
+
+    <div className='container treatment-section'>
+      <h1>Group and Individual Therapy</h1>
+      
+      <ul>
+                <li>
+                <h3><FaRegStar className='star'/> Cognitive Behavioral Therapy.</h3><br/>
+                <p>This method helps you develop your way of thinking towards difficult situation and handle your emotional challenges in a lightly manner.</p>
+                </li><br/>
+                <li>
+                <h3><FaRegStar className='star'/> Family Therapy.</h3><br/>
+                <p>This method focuses to help manage conflicts and struggles within family members. Our goal is to help a family find a healthier ways of resolving a difficult situations. </p>
+                </li><br/>
+                <li>
+                <h3><FaRegStar className='star'/> Art Therapy.</h3><br/>
+                <p>This method is an effective treatment to individuals experiencing mental health struggles with the use of arts. With this method, the patients can express their feelings and emotions in a creative way in a one-on-one or small-group settings. </p>
+                </li><br/>
+                <li>
+                <h3><FaRegStar className='star'/> Hypnotherapy.</h3><br/>
+                <p>This method involves exercises that allows the patient to enter into an deeply and calm state, physically and mentally, guided by a trained hypnotherapist. This will help the patient go back to past his/her past memories and explore the emotional struggles which is hidden from the concious mind. </p>
+                </li><br/>
+            </ul>
+
+
+
+
+
+      </div>
     </>
   )
 }
