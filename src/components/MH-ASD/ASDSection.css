@@ -12,6 +12,13 @@
 .ASDSection-header h1 {
     font-family: 'Montserrat', sans-serif;
     text-align: left;
+    color: rgb(68, 67, 67);
+}
+
+.ASDSection-header h5 {
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+  color: rgb(68, 67, 67);
 }
 
 .ASDSection-header p {
