@@ -1,5 +1,6 @@
 import React from 'react'
 import ContactForm from '../contact/ContactForm'
+import { FaRegStar } from 'react-icons/fa';
 
 import './AnxietySection.css'
 
@@ -16,10 +17,39 @@ const AnxietySection = () => {
 </div>
 
 <div className="anxiety-section-header container">
-                <h1>HYPERACTIVITY-IMPULSIVITY</h1><br/>
-                <p>Hyperactivity is the physical manifestation of the distraction and inability to focus related to ‘inattention’ relative to an ADHD diagnosis. 
+                <h1>SIGNS AND SYMPTOMS OF ANXIETY DISORDER</h1><br/>
+                <p>Although there are several individual anxiety disorders, there are some symptoms to look out for that may indicate the presence of one or multiple of these anxiety disorders. 
+
                 <br/> <br />
-                FIt will often manifest as actions like constant interrupting, running around, an inability to engage in activities quietly, talking excessively, and constant fidgeting.
+                <ul>
+                <li><FaRegStar className='star'/> Panic attacks</li><br/>
+                <li><FaRegStar className='star'/> Restlessness</li><br/>
+                <li><FaRegStar className='star'/> Trouble sleeping</li><br/>
+                <li><FaRegStar className='star'/> Hyperventilation</li>
+                <li><FaRegStar className='star'/> Constant worry or fear</li>
+                <li><FaRegStar className='star'/> Interference in work, school, or personal relationships</li>
+                <li><FaRegStar className='star'/> Avoiding things that trigger anxiety (certain places, things, people, etc.)</li>
+                </ul>
+                </p>
+</div>
+
+<div className="anxiety-section-header container">
+                <h1>EFFECTS OF ANXIETY DISORDER</h1><br/>
+                <p>The effects of anxiety can be wide-ranging. Those dealing with an anxiety disorder may turn to substances like drugs and alcohol to cope with day-to-day life. This can result in the worsening of symptoms, straining of your personal relationships, and a decrease of  your performance at school or on the job. 
+                </p>
+</div>
+
+<div className="anxiety-section-header container">
+                <h1>ANXIETY DISORDER TREATMENT</h1><br/>
+                <p>With a solid plan and medical counseling, anxiety disorders don't have to dictate your quality of life. The right combination of treatment centers can be a great place to start. Common anxiety disorder treatments include:
+                <br/> <br />
+                <ul>
+                <li><FaRegStar className='star'/> Psychotherapy</li><br/>
+                <li><FaRegStar className='star'/> Cognitive treatment</li><br/>
+                <li><FaRegStar className='star'/> Behavioral therapy</li><br/>
+                <li><FaRegStar className='star'/> Lifestyle changes</li><br/>
+                <li><FaRegStar className='star'/> Anti-anxiety medication</li>
+                </ul>
                 </p>
 </div>
 
