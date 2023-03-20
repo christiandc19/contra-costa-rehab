@@ -12,12 +12,22 @@ const AnxietySection = () => {
                 An anxiety disorder is more than just the everyday stress that the average person experiences. Anxiety disorders indicate deeper problems, and <br/><br/>
                 When the symptoms of anxiety begin to affect your ability to function and cope with day-to-day life.<br/><br/>
                 Those with anxiety disorders look for drugs or alcohol to cope with day-to-day life. This can result in the worsening of symptoms, straining of relationships with others, and the obstruction of performing well at work or school.
+                </p>   
+</div>
+
+<div className="anxiety-section-header container">
+                <h1>HYPERACTIVITY-IMPULSIVITY</h1><br/>
+                <p>Hyperactivity is the physical manifestation of the distraction and inability to focus related to ‘inattention’ relative to an ADHD diagnosis. 
+                <br/> <br />
+                FIt will often manifest as actions like constant interrupting, running around, an inability to engage in activities quietly, talking excessively, and constant fidgeting.
                 </p>
 </div>
+
 <div className="contact2-header contact2-container">
             <h1>DO YOU NEED URGENT HELP?</h1>
             <p>Our Addiction and Recovery Support team is available 24 hours a day 7 Days a week.</p>
         </div>
+
 <ContactForm />
 
     </>
