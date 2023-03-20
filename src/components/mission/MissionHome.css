@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
+
+.mission-home {
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: rgba(21, 3, 27, 0.521);
+  }
+  
+  .mission-home:before {
+    content: '';
+    position: absolute;
+    background: url('../../assets/mission-home.jpg') no-repeat center bottom/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background-attachment: fixed;
+  }
+
+  .mission-home .mission-home-content  {
+    top: 15%;
+  }
+
+.mission-home .mission-home-content h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: var(--primary-color);
+    padding: 2rem;
+    font-size: 3rem;
+}
+
+.mission-home .mission-home-content p {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.mission-home h2 {
+    font-size: 3.5rem;
+    text-align: center;
+    padding: 2rem;
+    font-family: 'Nanum Pen Script', cursive;
+    color: rgb(207, 95, 4);
+}
