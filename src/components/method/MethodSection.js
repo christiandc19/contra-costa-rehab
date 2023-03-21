@@ -87,7 +87,41 @@ const TreatmentSection = () => {
                 <h1>Recreations</h1>
             </div>
             <p>
-                As mentioned above, the weekly summary reflective of the session between client and counselor/therapist will measure each treatment plan goal on a weekly basis. The client will also initial the weekly summary as this is a review of the treatment plan goals and objectives. Furthermore, clients may have new issues come up during treatment that were not identified at the time of assessment. Drug and alcohol counselors/therapists will develop new treatment plan goals as needed using this protocol whenever necessary.
+            Contra Costa Rehab promotes fun activities that clients learn how to develop interests and hobbies that helps then improve their mental health. Clients must be cleared by the doctor to participate. Organized activities may include but are not limited to:
+            <ul> <br/>
+                <li>
+                <FaRegStar className='star'/> Movies.
+                </li>
+                <li>
+                <FaRegStar className='star'/> Bowling.
+                </li>
+                <li>
+                <FaRegStar className='star'/> Beach/Lake Activities.
+                </li>
+                <li>
+                <FaRegStar className='star'/> Miniature Golf.
+                </li>
+                <li>
+                <FaRegStar className='star'/> Bonfires (Weather permitting).
+                </li>
+                <li>
+                <FaRegStar className='star'/> Amusement Parks (Knott's Berry Farm, Disneyland, Magic Mountain).
+                </li>
+                <li>
+                <FaRegStar className='star'/> Major League Baseball Games.
+                </li>
+                <li>
+                <FaRegStar className='star'/> Hiking/Nature walk.
+                </li>
+                <li>
+                <FaRegStar className='star'/> Community Pool.
+                </li>                <li>
+                <FaRegStar className='star'/> NHL Hockey Games.
+                </li>                <li>
+                <FaRegStar className='star'/> Fundraisers for Local Alano Clubs (Chili Cookoffs, Picnics, BBQ’s, Etc.)
+.
+                </li>
+            </ul>
             </p>
         </div>
 
@@ -102,8 +136,25 @@ const TreatmentSection = () => {
 {/* SECTION 5 - GROUP AND INDIVIDUAL THERAPY */}
 
 
+<div className='container treatment-section'>
+        <h1>Individual and Group Counseling Sessions</h1>
+        <p>
+        <ul>
+            <li>
+                <h3><FaRegStar className='star'/> Individual Sessions.</h3><br/>
+                <p>All program Clients will receive, at a minimum, one weekly individual session. The focus of the individual sessions will range from completion of the assessment, completion of the treatment plan, 1:1 face to face chemical dependency counseling (inclusive of chemical dependency education, relapse prevention, alcohol and drug- free lifestyle).</p>
+            </li><br/>
+            <li>
+                <h3><FaRegStar className='star'/> Group Sessions.</h3><br/>
+                <p>Groups provide face to face contact with two or more clients and one or more counselor/program specialists on a range of chemical dependency related issues that are facilitated by staff. </p>
+            </li>
+            </ul> 
+        </p>
+    </div>
+
+
     <div className='container treatment-section'>
-      <h1>Group and Individual Therapy</h1>
+      <h1>Individual and Group Therapy</h1>
       
       <ul>
                 <li>
