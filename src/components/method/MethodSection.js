@@ -142,11 +142,11 @@ const TreatmentSection = () => {
         <ul>
             <li>
                 <h3><FaRegStar className='star'/> Individual Sessions.</h3><br/>
-                <p>All program Clients will receive, at a minimum, one weekly individual session. The focus of the individual sessions will range from completion of the assessment, completion of the treatment plan, 1:1 face to face chemical dependency counseling (inclusive of chemical dependency education, relapse prevention, alcohol and drug- free lifestyle).</p>
+                <p>All program Clients will receive, at a minimum, one weekly individual session. The focus of the individual sessions will range from completion of the assessment, completion of the treatment plan.</p>
             </li><br/>
             <li>
                 <h3><FaRegStar className='star'/> Group Sessions.</h3><br/>
-                <p>Groups provide face to face contact with two or more clients and one or more counselor/program specialists on a range of chemical dependency related issues that are facilitated by staff. </p>
+                <p>Groups provide face to face contact with two or more clients and one or more counselor that are facilitated by staff. </p>
             </li>
             </ul> 
         </p>
@@ -176,7 +176,11 @@ const TreatmentSection = () => {
                 <li>
                 <h3><FaRegStar className='star'/> Dialectal Behavioral Therapy.</h3><br/>
                 <p>This method is to help you learn skills on how to accept and understand your difficult feelings. This therapy tries to change negative feelings into positive behavior. </p>
-                </li><br/>               
+                </li><br/>    
+                <li>
+                <h3><FaRegStar className='star'/> Psychodynamic.</h3><br/>
+                <p>This method is used to describe the study of emotional forces and processes, particularly those that develop during the childhood stage, and their effects on behavior and mental states. Psychodynamic therapy is a form of talking therapy that helps clients deal with depression, anxiety, pain, and other mental issues.</p>
+                </li><br/>             
             </ul>
       </div>
       <Contact2 />
