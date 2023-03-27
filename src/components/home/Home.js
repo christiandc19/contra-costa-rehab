@@ -4,6 +4,7 @@ import InsuranceSection from '../insurance/InsuranceSection';
 import WhatWeDo from '../whatWeDo/WhatWeDo';
 import ContactForm from '../contact/ContactForm';
 import Conditions from '../conditions/Conditions';
+import MissionHome from '../mission/MissionHome';
 
 
 
@@ -14,6 +15,7 @@ const home = () => {
     <Conditions />
     <WhatWeDo />
     <InsuranceSection />
+    <MissionHome />
     <ContactForm />
     </>
   )

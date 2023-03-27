@@ -30,7 +30,67 @@ const AdhdSection = () => {
 </div>
 
                 </p>
+
 </div>
+
+<div className="adhd-section-header container">
+                <h1>INATTENTION</h1><br/>
+                <p>Inattention can take many forms. Generally, inattention can be characterized by difficulty in following instructions, making careless mistakes, missing important details, and not appearing to listen to others.  <br/> <br />
+                For these reasons, those with ADHD may find it difficult to focus at school and work, leading to other related issues like maintaining good grades and meeting deadlines.<br/> <br />
+                With ADHD, you may have trouble with organizing and executing tasks and priorities, lose objects at a heightened rate, and become easily distracted by external stimuli or by your thoughts. 
+                </p>
+</div>
+
+<div className="adhd-section-header container">
+                <h1>HYPERACTIVITY-IMPULSIVITY</h1><br/>
+                <p>Hyperactivity is the physical manifestation of the distraction and inability to focus related to ‘inattention’ relative to an ADHD diagnosis. 
+                <br/> <br />
+                FIt will often manifest as actions like constant interrupting, running around, an inability to engage in activities quietly, talking excessively, and constant fidgeting.
+                </p>
+</div>
+
+<div className="adhd-section-header container">
+                <h1>SIGNS AND SYMPTOMS OF ADHD</h1><br/>
+                <p>There are many other issues with similar symptoms of ADHD. Sleep disorders, depression, anxiety, and even some learning disabilities can look very similar to ADHD and even have similar symptoms. A few common symptoms that could signify ADHD: 
+                <br/> <br />
+                <h5>MENTAL</h5>
+                <p>
+                <ul><br/>
+                <li><FaRegStar className='star'/> Forgetfulness.</li>
+                <li><FaRegStar className='star'/> Inability to focus.</li>
+                <li><FaRegStar className='star'/> Distortion of reality.</li>
+                <li><FaRegStar className='star'/> Psychologic distress.</li>
+                <li><FaRegStar className='star'/> Flashbacks of the traumatic event.</li>
+                <li><FaRegStar className='star'/> Avoiding certain related places, people, or memories.</li>
+                </ul><br/>
+                
+                <h5>PHYSICAL</h5>
+              
+                <ul><br/>
+                <li><FaRegStar className='star'/> Chest pain.</li>
+                <li><FaRegStar className='star'/> Constant daydreaming.</li>
+                <li><FaRegStar className='star'/> Poor decision-making.</li>
+                <li><FaRegStar className='star'/> Inability to focus on/complete tasks.</li>
+                </ul><br/>
+
+                <h5>PERSONAL</h5>
+              
+                <ul><br/>
+                <li><FaRegStar className='star'/> Impatience</li>
+                <li><FaRegStar className='star'/> Disagreeable towards others</li>
+                <li><FaRegStar className='star'/> Unable to resist temptation</li>
+                <li><FaRegStar className='star'/> Losing & misplacing things</li>
+                </ul>
+                </p>
+
+                </p>
+</div>
+
+
+
+
+
+
 <div className="contact2-header contact2-container">
             <h1>DO YOU NEED URGENT HELP?</h1>
             <p>Our Addiction and Recovery Support team is available 24 hours a day 7 Days a week.</p>
