@@ -122,6 +122,18 @@ const TreatmentSection = () => {
                 <h3><FaRegStar className='star'/> Hypnotherapy.</h3><br/>
                 <p>This method involves exercises that allows the patient to enter into an deeply and calm state, physically and mentally, guided by a trained hypnotherapist. This will help the patient go back to past his/her past memories and explore the emotional struggles which is hidden from the concious mind. </p>
                 </li><br/>
+                <li>
+                <h3><FaRegStar className='star'/> Dialectal Behavioral Therapy.</h3><br/>
+                <p>This method is to help you learn skills on how to accept and understand your difficult feelings. This therapy tries to change negative feelings into positive behavior. </p>
+                </li><br/>    
+                <li>
+                <h3><FaRegStar className='star'/> Psychodynamic Therapy.</h3><br/>
+                <p>This method is used to describe the study of emotional forces and processes, particularly those that develop during the childhood stage, and their effects on behavior and mental states. Psychodynamic therapy is a form of talking therapy that helps clients deal with depression, anxiety, pain, and other mental issues.</p>
+                </li><br/>      
+                <li>
+                <h3><FaRegStar className='star'/> Interpersonal Therapy.</h3><br/>
+                <p>This method is used to describe the study of emotional forces and processes, particularly those that develop during the childhood stage, and their effects on behavior and mental states. Psychodynamic therapy is a form of talking therapy that helps clients deal with depression, anxiety, pain, and other mental issues.</p>
+                </li><br/>
             </ul>
       </div>
       <Contact2 />
