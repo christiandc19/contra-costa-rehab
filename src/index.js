@@ -29,6 +29,20 @@ import PTSD from './routes/PTSDPage';
 import Schizoaffective from './routes/SchizoaffectivePage';
 import Schizophrenia from './routes/SchizophreniaPage';
 
+import COCAINE from './routes/COCAINE';
+import ALCOHOL from './routes/ALCOHOL';
+import FENTANYL from './routes/FENTANYL';
+import HEROIN from './routes/HEROIN';
+import KRATOM from './routes/KRATOM';
+import MDMA from './routes/MDMA';
+import METH from './routes/METH';
+import OPIATE from './routes/OPIATE';
+import OPIOID from './routes/OPIOID';
+import OXYCODONE from './routes/OXYCODONE';
+import PRESCRIPTIONS from './routes/PRESCRIPTIONS';
+import XANAX from './routes/XANAX';
+
+import SA from './routes/SA';
 
 
 
@@ -56,6 +70,22 @@ ReactDOM.render(
       <Route exact path='/ptsd' element={<PTSD />} />
       <Route exact path='/schizoaffective' element={<Schizoaffective />} />
       <Route exact path='/schizophrenia' element={<Schizophrenia />} />
+
+      <Route exact path='/alcohol' element={<ALCOHOL />} />
+      <Route exact path='/cocaine' element={<COCAINE />} />
+      <Route exact path='/fentanyl' element={<FENTANYL />} />
+      <Route exact path='/heroin' element={<HEROIN />} />
+      <Route exact path='/kratom' element={<KRATOM />} />
+      <Route exact path='/mdma' element={<MDMA />} />
+      <Route exact path='/meth' element={<METH />} />
+      <Route exact path='/opiate' element={<OPIATE />} />
+      <Route exact path='/opioid' element={<OPIOID />} />
+      <Route exact path='/oxycodone' element={<OXYCODONE />} />
+      <Route exact path='/prescriptions' element={<PRESCRIPTIONS />} />
+      <Route exact path='/xanax' element={<XANAX />} />
+
+      <Route exact path='/substance-abuse' element={<SA />} />
+
 
       <Route exact path='/method' element={<MethodPage />} />
       <Route exact path='/mission' element={<MissionPage />} />

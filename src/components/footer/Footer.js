@@ -64,7 +64,7 @@ const Footer = () => {
                     </div>
 
 
-                    <div className="col">
+                    {/* <div className="col">
                         <h3>SUBSTANCE ABUSE</h3>
                         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
                         <Link to='/substance-abuse-php'><p>Partial Hospitalization Program</p></Link>
@@ -74,14 +74,10 @@ const Footer = () => {
                         <Link to='/substance-abuse-iop'><p>Intensive Outpatient Program</p></Link>
                         </LinkRoll>
 
-                        {/* <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/testimonials'><p>Testimonials</p></Link>
-                        </LinkRoll> */}
-
                         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
                         <Link to='/substance-abuse-op'><p>Outpatient Program</p></Link>
                         </LinkRoll>
-                    </div>
+                    </div> */}
 
 
                     <div className="col">

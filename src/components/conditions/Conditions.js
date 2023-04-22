@@ -18,14 +18,28 @@ const Conditions = () => {
         <>
 
 <div className='conditions'>
-
+<div>
 <div className='condition-icons-header container'>
     <h1>Types of Mental Health Disorders Do We Treat</h1>
     <p>Our compassionate staff utilizes established medical treatments to decrease withdrawal effects in an empathetic environment. In the meantime, you’ll receive behavioral health care from experienced counselors to boost your chances for an effective recovery.</p>
 </div>
 
 
-<div className='ConditionsLogosContainer container'>
+<div className='ConditionsLogosContainer'>
+
+<Fade bottom>
+<div className='conditions-icons'>
+<ConditionsLogos Image={Depression} />
+<p>Depression</p>
+</div>
+</Fade>
+
+<Fade bottom>
+<div className='conditions-icons'>
+<ConditionsLogos Image={AnxietyDisorder} />
+<p>Anxiety Disorder</p>
+</div>
+</Fade>
 
 <Fade bottom>
 <div className='conditions-icons'>
@@ -41,24 +55,10 @@ const Conditions = () => {
 </div>
 </Fade>
 
-<Fade bottom>
-<div className='conditions-icons'>
-<ConditionsLogos Image={AnxietyDisorder} />
-<p>Anxiety Disorder</p>
-</div>
-</Fade>
-
 <Fade top>
 <div className='conditions-icons'>
 <ConditionsLogos Image={BipolarDisorder} />
 <p>Bipolor Disorder</p>
-</div>
-</Fade>
-
-<Fade bottom>
-<div className='conditions-icons'>
-<ConditionsLogos Image={Depression} />
-<p>Depression</p>
 </div>
 </Fade>
 
@@ -85,7 +85,131 @@ const Conditions = () => {
 
 </div>
 
+
+<div className='condition-icons-header container'>
+    <h1>Types of Substance Abuse Addiction Do We Treat</h1>
+    <p>Our compassionate staff utilizes established medical treatments to decrease withdrawal effects in an empathetic environment. In the meantime, you’ll receive behavioral health care from experienced counselors to boost your chances for an effective recovery.</p>
 </div>
+
+
+<div className='ConditionsLogosContainer container'>
+
+<Fade bottom>
+<div className='conditions-icons'>
+<ConditionsLogos Image={ADHD} />
+<p>ALCOHOL</p>
+</div>
+</Fade>
+
+<Fade top>
+<div className='conditions-icons'>
+<ConditionsLogos Image={AngerDisorder} />
+<p>COCAINE</p>
+</div>
+</Fade>
+
+<Fade bottom>
+<div className='conditions-icons'>
+<ConditionsLogos Image={AnxietyDisorder} />
+<p>FENTANYL</p>
+</div>
+</Fade>
+
+<Fade top>
+<div className='conditions-icons'>
+<ConditionsLogos Image={BipolarDisorder} />
+<p>HEROIN</p>
+</div>
+</Fade>
+
+<Fade bottom>
+<div className='conditions-icons'>
+<ConditionsLogos Image={Depression} />
+<p>KRATOM</p>
+</div>
+</Fade>
+
+<Fade top>
+<div className='conditions-icons'>
+<ConditionsLogos Image={PTSD} />
+<p>MDMA</p>
+</div>
+</Fade>
+
+<Fade bottom>
+<div className='conditions-icons'>
+<ConditionsLogos Image={SCHIZOAFFECTIVE } />
+<p>METH </p>
+</div>
+</Fade>
+
+<Fade top>
+<div className='conditions-icons'>
+<ConditionsLogos Image={SCHIZOPHRENIA } />
+<p>OPIATE</p>
+</div>
+</Fade>
+
+<Fade top>
+<div className='conditions-icons'>
+<ConditionsLogos Image={SCHIZOPHRENIA } />
+<p>OPIOID</p>
+</div>
+</Fade>
+
+<Fade top>
+<div className='conditions-icons'>
+<ConditionsLogos Image={SCHIZOPHRENIA } />
+<p>OXYCODONE</p>
+</div>
+</Fade>
+
+<Fade top>
+<div className='conditions-icons'>
+<ConditionsLogos Image={SCHIZOPHRENIA } />
+<p>PRESCRIPTION</p>
+</div>
+</Fade>
+
+<Fade top>
+<div className='conditions-icons'>
+<ConditionsLogos Image={SCHIZOPHRENIA } />
+<p>XANAX</p>
+</div>
+</Fade>
+
+</div>
+
+
+
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
         </>

@@ -51,10 +51,12 @@
 
 .footer .col-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     padding: 1rem;
     width: 100%;
 }
+
+
 
 .footer h3 {
     margin: 1rem 0 2rem 0;
@@ -111,7 +113,7 @@
 }
 
 
-.copyright p{
+.copyright p {
     color: rgb(9, 147, 189);
     text-transform: uppercase;
     text-align: center;
@@ -123,7 +125,7 @@
     }
 
     .footer .col-container {
-        grid-template-columns: 2fr 2fr;
+        grid-template-columns: 1fr 1fr;
     }
 
     .footer form {

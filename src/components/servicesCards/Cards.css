@@ -167,7 +167,7 @@ box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
   font-size: 14px;
 }
 
-  @media (max-width: 1200px) {
+  @media (max-width: 1410px) {
     .card-wrap {
       width: 100%;
     }

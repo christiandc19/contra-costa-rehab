@@ -8,13 +8,13 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background: url('../../assets/hero-bg-1.jpg') no-repeat center center/cover;
+    background: linear-gradient(to top, #ffffff1c, #ffffff1f), url('../../assets/hero-bg-1.jpg') no-repeat center center/cover;
   }
   
   .hero:before {
     content: '';
     position: absolute;
-    background: url('../../assets/home-bg.png') no-repeat center top/cover;
+    background: linear-gradient(to top, #00000038, #00000050), url('../../assets/home-bg.png') no-repeat center top/cover;
     height: 100%;
     width: 100%;
   }

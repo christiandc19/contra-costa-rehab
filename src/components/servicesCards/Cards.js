@@ -8,6 +8,7 @@ import Fade from 'react-reveal/Fade';
 
 
 import Card1 from '../../assets/card1.jpg'
+import Card2 from '../../assets/card2.jpg'
 import Card3 from '../../assets/card3.jpg'
 
 
@@ -23,7 +24,7 @@ const Cards = () => {
 
 
 
-            <div className="cards-header container">
+            <div className="cards-header ">
 
             <div class="card-wrap">
                 <div className='cards-header-left'>
@@ -51,7 +52,25 @@ const Cards = () => {
   </div>
  </div>
 
-  
+
+ <div class="tile"> 
+    <Fade left>
+      <img src={Card2} alt="Mental Health" loading="lazy"/>
+    </Fade>
+      <div class="text">
+        <h1>ADDICTION TREATMENT​</h1>
+        <p class="animate-text">No matter what type of addiction or mental health condition you are dealing with, there’s something for everyone at Contra Costa Rehab.</p>
+      <div class="animate-text">
+    <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+        <Link to="/substance abuse-health">
+            <button>Learn More</button>
+        </Link>
+    </LinkRoll>
+    </div>
+  </div>
+ </div>
+
+
   <div class="tile"> 
 
   <Fade right>

@@ -56,11 +56,11 @@ const Navbar = () => {
                     <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> Programs <FiChevronDown /> </Link>
                     <ul className={boxClassSubMenu.join(' ')} id='submenu-item'> 
                             {/* <li className='submenu-header'> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/mental-health`}> MENTAL HEALTH </NavLink> </li> */}
-                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/mental-health-iop`}> Intensive Outpatient Program </NavLink> </li>
                             <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/mental-health-php`}> Partial Hospitalization Program</NavLink> </li>
+                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/mental-health-iop`}> Intensive Outpatient Program </NavLink> </li>
                             <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/mental-health-op`}> Outpatient Program </NavLink> </li>
-                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/Jobs`}> Jobs Program </NavLink> </li>
-
+                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/`}> Mental Health </NavLink> </li>
+                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/`}> Substance Addiction </NavLink> </li>
                         </ul>
                     </li>
 
@@ -68,7 +68,7 @@ const Navbar = () => {
                     <li><Link to='/method'>Our Method</Link> </li>
 
 
-                    <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> Treatments <FiChevronDown /> </Link>
+                    <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="mental-health"> Mental Health <FiChevronDown /> </Link>
                     <ul className={boxClassSubMenu.join(' ')} id='submenu-item'> 
                             <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/acute-stress-disorder`}> Acute Stress Disorder </NavLink> </li>
                             <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/adhd`}> ADHD</NavLink> </li>
@@ -83,6 +83,23 @@ const Navbar = () => {
                         </ul>
                     </li>
 
+
+                    <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> Addiction <FiChevronDown /> </Link>
+                    <ul className={boxClassSubMenu.join(' ')} id='submenu-item'> 
+                            <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/alcohol`}> Alcohol</NavLink> </li>
+                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/cocaine`}> Cocaine </NavLink> </li>
+                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/fentanyl`}> Fentanyl </NavLink> </li>
+                            <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/heroin`}> Heroin</NavLink> </li>
+                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/kratom`}> Kratom </NavLink> </li>
+                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/mdma`}> MDMA </NavLink> </li>
+                           <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/meth`}> Meth </NavLink> </li>
+                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/opiate`}> Opiate </NavLink> </li>
+                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/opioid`}> Opioid </NavLink> </li>
+                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/oxycodone`}> Oxycodone </NavLink> </li>
+                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/prescriptions`}> Prescription </NavLink> </li>
+                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/xanax`}> Xanax </NavLink> </li>
+                        </ul>
+                    </li>
 
 
 
