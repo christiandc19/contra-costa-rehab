@@ -3,7 +3,7 @@
     width: 100%;
     position: relative;
     padding: 5rem 0;
-    background: url('../../assets/hero-bg-1.jpg') no-repeat center center/cover;
+    background-color: #F6F5EE;
 }
 
 .InsuranceSection .content {

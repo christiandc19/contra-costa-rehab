@@ -16,6 +16,8 @@ const Cards = () => {
   return (
     <>
 
+<div id='cards'>
+
     <div className='main-cards-header container'>
       <h1>WELCOME TO CONTRA COSTA REHAB</h1>
       <h2>“Taking a step today will help you lead a better tomorrow.”</h2>
@@ -62,7 +64,7 @@ const Cards = () => {
         <p class="animate-text">No matter what type of addiction or mental health condition you are dealing with, there’s something for everyone at Contra Costa Rehab.</p>
       <div class="animate-text">
     <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-        <Link to="/substance abuse-health">
+        <Link to="/substance-abuse">
             <button>Learn More</button>
         </Link>
     </LinkRoll>
@@ -95,7 +97,7 @@ const Cards = () => {
 </div>
 
 
-  
+</div>
     </>
   )
 }

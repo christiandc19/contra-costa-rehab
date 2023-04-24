@@ -3,29 +3,28 @@
 
 .hero {
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     position: relative;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background: linear-gradient(to top, #ffffff1c, #ffffff1f), url('../../assets/hero-bg-1.jpg') no-repeat center center/cover;
+    background: #783a0425;
   }
   
   .hero:before {
     content: '';
     position: absolute;
-    background: linear-gradient(to top, #00000038, #00000050), url('../../assets/home-bg.png') no-repeat center top/cover;
+    background: url('../../assets/hero-bg-min.jpg') no-repeat center top/cover;
     height: 100%;
     width: 100%;
+    z-index: -1;
   }
 
 .hero .hero-container {
     position: absolute;
-    align-items: center;
-    text-align: left;
     padding: 1rem;
-    width: 100%;
-    top: 10%;
+    left: 5%;
+    top: 35%;
 }
 
 .hero-logo {
@@ -33,51 +32,112 @@
 }
 
 .hero h1 {
-    font-size: 3rem;
-    padding: 1rem 0 0 0;
+    font-size: 4.5rem;
+    padding: 0 1rem;
     text-align: center;
-    color: rgb(9, 147, 189);
+    color: white;
     font-family: 'Montserrat', sans-serif;
 }
 
 .hero h2 {
     font-size: 1.5rem;
     text-align: center;
-    color: rgb(68, 67, 67);
+    color: white;
 }
 
 .hero-container p {
     font-size: 12px;
     font-weight: 600;
     text-align: center;
-    color: rgb(207, 95, 4);
+    color: white;
     text-transform: uppercase;
+    padding: .5REM 1rem ;
 }
 
-.hero .hero-btn button {
+/* .hero .hero-btn button {
     cursor: pointer;
+} */
+
+/* button */
+
+.hero-btn {
+    width: 100%;
+    text-align: center;
 }
 
-
+.hero-cta {
+    position: relative;
+    padding: 12px 18px;
+    transition: all 0.2s ease;
+    border: none;
+    background: none;
+    justify-content: center;
+   }
+   
+   .hero-cta:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    border-radius: 50px;
+    background: #783B04;
+    width: 45px;
+    height: 45px;
+    transition: all 0.3s ease;
+   }
+   
+   .hero-cta span {
+    position: relative;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #f0f1f1;
+   }
+   
+   .hero-cta svg {
+    position: relative;
+    top: 0;
+    margin-left: 10px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: #e2e4e7;
+    stroke-width: 2;
+    transform: translateX(-5px);
+    transition: all 0.3s ease;
+   }
+   
+   .hero-cta:hover:before {
+    width: 100%;
+    background: #783B04;
+   }
+   
+   .hero-cta:hover svg {
+    transform: translateX(0);
+   }
+   
+   .hero-cta:active {
+    transform: scale(0.95);
+   }
 
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width:940px) {
-
-    .hero h2 {
-        font-size: 18px;
-    }
+@media screen and (max-width:650px) {
 
     .hero h1 {
-    font-size: 2.3rem;
+    font-size: 3rem;
+    }
+
+    .hero h2 {
+        font-size: 1rem;
     }
 
     .hero p {
-        font-size: 12px;
+        font-size: 14px;
     }
 
-    .hero .hero-container {
-        top: 10%;
-    }
+
 }

@@ -1,220 +1,439 @@
-import React from 'react'
-import Fade from 'react-reveal/Fade';
-import './Conditions.css'
+import React from "react";
+import Fade from "react-reveal/Fade";
+import "./Conditions.css";
 
-import ConditionsLogos from './ConditionsLogos'
+import { Link } from "react-router-dom";
+import { Link as LinkRoll } from "react-scroll";
 
-import ADHD from '../../assets/adhd.jpg'
-import AngerDisorder from '../../assets/angerDisorder.jpg'
-import AnxietyDisorder from '../../assets/anxietyDisorder.jpg'
-import BipolarDisorder from '../../assets/bipolarDisorder.jpg'
-import Depression from '../../assets/depression.jpg'
-import PTSD from '../../assets/ptsd.jpg'
-import SCHIZOAFFECTIVE from '../../assets/schizoaffective.jpg'
-import SCHIZOPHRENIA from '../../assets/schizophrenia.jpg'
+import ConditionsLogos from "./ConditionsLogos";
+
+import ADHD from "../../assets/adhd.jpg";
+import AngerDisorder from "../../assets/angerDisorder.jpg";
+import AnxietyDisorder from "../../assets/anxietyDisorder.jpg";
+import BipolarDisorder from "../../assets/bipolarDisorder.jpg";
+import Depression from "../../assets/depression.jpg";
+import PTSD from "../../assets/ptsd.jpg";
+import SCHIZOAFFECTIVE from "../../assets/schizoaffective.jpg";
+import SCHIZOPHRENIA from "../../assets/schizophrenia.jpg";
+
+import ALCOHOL from "../../assets/alcohol.jpg";
+import COCAINE from "../../assets/cocaine.jpg";
+import FENTANYL from "../../assets/fentanyl.jpg";
+import HEROIN from "../../assets/heroin.jpg";
+import KRATOM from "../../assets/kratom.jpg";
+import MDMA from "../../assets/mdma.jpg";
+import METH from "../../assets/meth.jpg";
+import OPIATE from "../../assets/opiate.jpg";
+import OPIOID from "../../assets/opioid.jpg";
+import OXYCODONE from "../../assets/oxycodone.jpg";
+import PRESCRIPTION from "../../assets/prescription.jpg";
+import XANAX from "../../assets/xanax.jpg";
 
 const Conditions = () => {
-    return (
-        <>
+  return (
+    <>
+      <div className="conditions">
+        <div>
+          <div className="condition-icons-header container">
+            <h1>Types of Mental Health Disorders Do We Treat</h1>
+            <p>
+            Contra Costa Rehab provides services to adults and adolescents who have suffer from depression, anxiety, Bipolar disorder, and other mental illnesses. 
+            </p>
+          </div>
 
-<div className='conditions'>
-<div>
-<div className='condition-icons-header container'>
-    <h1>Types of Mental Health Disorders Do We Treat</h1>
-    <p>Our compassionate staff utilizes established medical treatments to decrease withdrawal effects in an empathetic environment. In the meantime, you’ll receive behavioral health care from experienced counselors to boost your chances for an effective recovery.</p>
-</div>
+          <div className="ConditionsLogosContainer">
+            <Fade bottom>
+              <div className="conditions-icons">
+                <ConditionsLogos Image={Depression} />
+                <LinkRoll
+                  activeClass="active"
+                  to="top"
+                  spy={true}
+                  smooth={true}
+                  duration={500}
+                >
+                  <Link to="/depression">
+                    <div className="condition-btn">
+                    <button>DEPRESSION</button>
+                    </div>
+                  </Link>
+                </LinkRoll>
+              </div>
+            </Fade>
 
+            <Fade bottom>
+              <div className="conditions-icons">
+                <ConditionsLogos Image={AnxietyDisorder} />
+                <LinkRoll
+                  activeClass="active"
+                  to="top"
+                  spy={true}
+                  smooth={true}
+                  duration={500}
+                >
+                  <Link to="/anxiety">
+                  <div className="condition-btn">
+                    <button>ANXIETY</button>
+                    </div>
+                  </Link>
+                </LinkRoll>
+              </div>
+            </Fade>
 
-<div className='ConditionsLogosContainer'>
+            <Fade bottom>
+              <div className="conditions-icons">
+                <ConditionsLogos Image={ADHD} />
+                <LinkRoll
+                  activeClass="active"
+                  to="top"
+                  spy={true}
+                  smooth={true}
+                  duration={500}
+                >
+                  <Link to="/adhd">
+                  <div className="condition-btn">
+                    <button>ADHD</button>
+                    </div>
+                  </Link>
+                </LinkRoll>
+              </div>
+            </Fade>
 
-<Fade bottom>
-<div className='conditions-icons'>
-<ConditionsLogos Image={Depression} />
-<p>Depression</p>
-</div>
-</Fade>
+            <Fade top>
+              <div className="conditions-icons">
+                <ConditionsLogos Image={AngerDisorder} />
+                <LinkRoll
+                  activeClass="active"
+                  to="top"
+                  spy={true}
+                  smooth={true}
+                  duration={500}
+                >
+                  <Link to="/anger-disorder">
+                  <div className="condition-btn">
+                    <button>ANGER</button>
+                  </div>
+                  </Link>
+                </LinkRoll>
+              </div>
+            </Fade>
 
-<Fade bottom>
-<div className='conditions-icons'>
-<ConditionsLogos Image={AnxietyDisorder} />
-<p>Anxiety Disorder</p>
-</div>
-</Fade>
+            <Fade top>
+              <div className="conditions-icons">
+                <ConditionsLogos Image={BipolarDisorder} />
+                <LinkRoll
+                  activeClass="active"
+                  to="top"
+                  spy={true}
+                  smooth={true}
+                  duration={500}
+                >
+                  <Link to="/bipolar-disorder">
+                  <div className="condition-btn">
+                    <button>BIPOLAR</button>
+                  </div>
+                  </Link>
+                </LinkRoll>
+              </div>
+            </Fade>
 
-<Fade bottom>
-<div className='conditions-icons'>
-<ConditionsLogos Image={ADHD} />
-<p>ADHD</p>
-</div>
-</Fade>
+            <Fade top>
+              <div className="conditions-icons">
+                <ConditionsLogos Image={PTSD} />
+                <LinkRoll
+                  activeClass="active"
+                  to="top"
+                  spy={true}
+                  smooth={true}
+                  duration={500}
+                >
+                  <Link to="/ptsd">
+                  <div className="condition-btn">
+                    <button>PTSD</button>
+                  </div>
+                  </Link>
+                </LinkRoll>
+              </div>
+            </Fade>
 
-<Fade top>
-<div className='conditions-icons'>
-<ConditionsLogos Image={AngerDisorder} />
-<p>Anger Disorder</p>
-</div>
-</Fade>
+            <Fade bottom>
+              <div className="conditions-icons">
+                <ConditionsLogos Image={SCHIZOAFFECTIVE} />
+                <LinkRoll
+                  activeClass="active"
+                  to="top"
+                  spy={true}
+                  smooth={true}
+                  duration={500}
+                >
+                  <Link to="/schizoaffective">
+                  <div className="condition-btn">
+                    <button>SCHIZOAFFECTIVE</button>
+                  </div>
+                  </Link>
+                </LinkRoll>
+              </div>
+            </Fade>
 
-<Fade top>
-<div className='conditions-icons'>
-<ConditionsLogos Image={BipolarDisorder} />
-<p>Bipolor Disorder</p>
-</div>
-</Fade>
+            <Fade top>
+              <div className="conditions-icons">
+                <ConditionsLogos Image={SCHIZOPHRENIA} />
+                <LinkRoll
+                  activeClass="active"
+                  to="top"
+                  spy={true}
+                  smooth={true}
+                  duration={500}
+                >
+                  <Link to="/schizophrenia">
+                  <div className="condition-btn">
+                    <button>SCHIZOPHRENIA</button>
+                  </div>
+                  </Link>
+                </LinkRoll>
+              </div>
+            </Fade>
+          </div>
 
-<Fade top>
-<div className='conditions-icons'>
-<ConditionsLogos Image={PTSD} />
-<p>PTSD</p>
-</div>
-</Fade>
+          <div className="condition-icons-header container">
+            <h1>Types of Substance Abuse Addiction Do We Treat</h1>
+            <p>
+            Here at Contra Costa Rehab, we offer a full array of affordable drug rehab programs that can take addicts from detox to inpatient or outpatient care and back home again.</p>
+          </div>
 
-<Fade bottom>
-<div className='conditions-icons'>
-<ConditionsLogos Image={SCHIZOAFFECTIVE } />
-<p>Schizoaffective </p>
-</div>
-</Fade>
+          <div className="ConditionsLogosContainer container">
+            <Fade bottom>
+              <div className="conditions-icons">
+                <ConditionsLogos Image={ALCOHOL} />
+                <LinkRoll
+                  activeClass="active"
+                  to="top"
+                  spy={true}
+                  smooth={true}
+                  duration={500}
+                >
+                  <Link to="/alcohol">
+                  <div className="condition-btn">
+                    <button>ALCOHOL</button>
+                  </div>
+                  </Link>
+                </LinkRoll>
+              </div>
+            </Fade>
 
-<Fade top>
-<div className='conditions-icons'>
-<ConditionsLogos Image={SCHIZOPHRENIA } />
-<p>Schizophrenia</p>
-</div>
-</Fade>
+            <Fade top>
+              <div className="conditions-icons">
+                <ConditionsLogos Image={COCAINE} />
+                <LinkRoll
+                  activeClass="active"
+                  to="top"
+                  spy={true}
+                  smooth={true}
+                  duration={500}
+                >
+                  <Link to="/cocaine">
+                  <div className="condition-btn">
+                    <button>COCAINE</button>
+                  </div>
+                  </Link>
+                </LinkRoll>
+              </div>
+            </Fade>
 
-</div>
+            <Fade bottom>
+              <div className="conditions-icons">
+                <ConditionsLogos Image={FENTANYL} />
+                <LinkRoll
+                  activeClass="active"
+                  to="top"
+                  spy={true}
+                  smooth={true}
+                  duration={500}
+                >
+                  <Link to="/fentanyl">
+                  <div className="condition-btn">
+                    <button>FENTANYL</button>
+                  </div>
+                  </Link>
+                </LinkRoll>
+              </div>
+            </Fade>
 
+            <Fade top>
+              <div className="conditions-icons">
+                <ConditionsLogos Image={HEROIN} />
+                <LinkRoll
+                  activeClass="active"
+                  to="top"
+                  spy={true}
+                  smooth={true}
+                  duration={500}
+                >
+                  <Link to="/heroin">
+                  <div className="condition-btn">
+                    <button>HEROIN</button>
+                  </div>
+                  </Link>
+                </LinkRoll>
+              </div>
+            </Fade>
 
-<div className='condition-icons-header container'>
-    <h1>Types of Substance Abuse Addiction Do We Treat</h1>
-    <p>Our compassionate staff utilizes established medical treatments to decrease withdrawal effects in an empathetic environment. In the meantime, you’ll receive behavioral health care from experienced counselors to boost your chances for an effective recovery.</p>
-</div>
+            <Fade bottom>
+              <div className="conditions-icons">
+                <ConditionsLogos Image={KRATOM} />
+                <LinkRoll
+                  activeClass="active"
+                  to="top"
+                  spy={true}
+                  smooth={true}
+                  duration={500}
+                >
+                  <Link to="/kratom">
+                  <div className="condition-btn">
+                    <button>KRATOM</button>
+                  </div>
+                  </Link>
+                </LinkRoll>
+              </div>
+            </Fade>
 
+            <Fade top>
+              <div className="conditions-icons">
+                <ConditionsLogos Image={MDMA} />
+                <LinkRoll
+                  activeClass="active"
+                  to="top"
+                  spy={true}
+                  smooth={true}
+                  duration={500}
+                >
+                  <Link to="/mdma">
+                  <div className="condition-btn">
+                    <button>MDMA</button>
+                  </div>
+                  </Link>
+                </LinkRoll>
+              </div>
+            </Fade>
 
-<div className='ConditionsLogosContainer container'>
+            <Fade bottom>
+              <div className="conditions-icons">
+                <ConditionsLogos Image={METH} />
+                <LinkRoll
+                  activeClass="active"
+                  to="top"
+                  spy={true}
+                  smooth={true}
+                  duration={500}
+                >
+                  <Link to="/meth">
+                  <div className="condition-btn">
+                    <button>METH</button>
+                  </div>
+                  </Link>
+                </LinkRoll>
+              </div>
+            </Fade>
 
-<Fade bottom>
-<div className='conditions-icons'>
-<ConditionsLogos Image={ADHD} />
-<p>ALCOHOL</p>
-</div>
-</Fade>
+            <Fade top>
+              <div className="conditions-icons">
+                <ConditionsLogos Image={OPIATE} />
+                <LinkRoll
+                  activeClass="active"
+                  to="top"
+                  spy={true}
+                  smooth={true}
+                  duration={500}
+                >
+                  <Link to="/opiate">
+                  <div className="condition-btn">
+                    <button>OPIATE</button>
+                  </div>
+                  </Link>
+                </LinkRoll>
+              </div>
+            </Fade>
 
-<Fade top>
-<div className='conditions-icons'>
-<ConditionsLogos Image={AngerDisorder} />
-<p>COCAINE</p>
-</div>
-</Fade>
+            <Fade top>
+              <div className="conditions-icons">
+                <ConditionsLogos Image={OPIOID} />
+                <LinkRoll
+                  activeClass="active"
+                  to="top"
+                  spy={true}
+                  smooth={true}
+                  duration={500}
+                >
+                  <Link to="/opioid">
+                  <div className="condition-btn">
+                    <button>OPIOID</button>
+                  </div>
+                  </Link>
+                </LinkRoll>
+              </div>
+            </Fade>
 
-<Fade bottom>
-<div className='conditions-icons'>
-<ConditionsLogos Image={AnxietyDisorder} />
-<p>FENTANYL</p>
-</div>
-</Fade>
+            <Fade top>
+              <div className="conditions-icons">
+                <ConditionsLogos Image={OXYCODONE} />
+                <LinkRoll
+                  activeClass="active"
+                  to="top"
+                  spy={true}
+                  smooth={true}
+                  duration={500}
+                >
+                  <Link to="/oxycodone">
+                  <div className="condition-btn">
+                    <button>OXYCODONE</button>
+                  </div>
+                  </Link>
+                </LinkRoll>
+              </div>
+            </Fade>
 
-<Fade top>
-<div className='conditions-icons'>
-<ConditionsLogos Image={BipolarDisorder} />
-<p>HEROIN</p>
-</div>
-</Fade>
+            <Fade top>
+              <div className="conditions-icons">
+                <ConditionsLogos Image={PRESCRIPTION} />
+                <LinkRoll
+                  activeClass="active"
+                  to="top"
+                  spy={true}
+                  smooth={true}
+                  duration={500}
+                >
+                  <Link to="/prescription">
+                  <div className="condition-btn">
+                    <button>PRESCRIPTION</button>
+                  </div>
+                  </Link>
+                </LinkRoll>
+              </div>
+            </Fade>
 
-<Fade bottom>
-<div className='conditions-icons'>
-<ConditionsLogos Image={Depression} />
-<p>KRATOM</p>
-</div>
-</Fade>
+            <Fade top>
+              <div className="conditions-icons">
+                <ConditionsLogos Image={XANAX} />
+                <LinkRoll
+                  activeClass="active"
+                  to="top"
+                  spy={true}
+                  smooth={true}
+                  duration={500}
+                >
+                  <Link to="/xanax">
+                  <div className="condition-btn">
+                    <button>XANAX</button>
+                  </div>
+                  </Link>
+                </LinkRoll>
+              </div>
+            </Fade>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
 
-<Fade top>
-<div className='conditions-icons'>
-<ConditionsLogos Image={PTSD} />
-<p>MDMA</p>
-</div>
-</Fade>
-
-<Fade bottom>
-<div className='conditions-icons'>
-<ConditionsLogos Image={SCHIZOAFFECTIVE } />
-<p>METH </p>
-</div>
-</Fade>
-
-<Fade top>
-<div className='conditions-icons'>
-<ConditionsLogos Image={SCHIZOPHRENIA } />
-<p>OPIATE</p>
-</div>
-</Fade>
-
-<Fade top>
-<div className='conditions-icons'>
-<ConditionsLogos Image={SCHIZOPHRENIA } />
-<p>OPIOID</p>
-</div>
-</Fade>
-
-<Fade top>
-<div className='conditions-icons'>
-<ConditionsLogos Image={SCHIZOPHRENIA } />
-<p>OXYCODONE</p>
-</div>
-</Fade>
-
-<Fade top>
-<div className='conditions-icons'>
-<ConditionsLogos Image={SCHIZOPHRENIA } />
-<p>PRESCRIPTION</p>
-</div>
-</Fade>
-
-<Fade top>
-<div className='conditions-icons'>
-<ConditionsLogos Image={SCHIZOPHRENIA } />
-<p>XANAX</p>
-</div>
-</Fade>
-
-</div>
-
-
-
-
-
-</div>
-
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        </>
-    )
-}
-
-export default Conditions
-
+export default Conditions;

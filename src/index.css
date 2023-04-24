@@ -34,7 +34,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: #fff;
+  color: #0c0c0c;
 }
 
 a:hover {
@@ -81,10 +81,10 @@ button {
 
 }
 
-button:hover {
+/* button:hover {
   background-color: #d18e10;
   border: 1px solid #d18e10;
-}
+} */
 
 span {
   color: var(--primary-color);
