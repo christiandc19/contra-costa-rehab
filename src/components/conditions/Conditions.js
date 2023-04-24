@@ -41,7 +41,7 @@ const Conditions = () => {
             </p>
           </div>
 
-          <div className="ConditionsLogosContainer">
+          <div className="ConditionsLogosContainer container">
             <Fade bottom>
               <div className="conditions-icons">
                 <ConditionsLogos Image={Depression} />
