@@ -28,6 +28,7 @@ const ContactForm = () => {
 
     return (
         <>
+<div className="contactform">
 
 <section className="container">
 <div>
@@ -84,7 +85,7 @@ const ContactForm = () => {
 
 
 
-
+</div>
         </>
     )
 }

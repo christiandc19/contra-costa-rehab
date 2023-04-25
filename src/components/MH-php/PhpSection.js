@@ -2,10 +2,11 @@ import React from 'react'
 import Fade from 'react-reveal/Fade';
 import './PhpSection.css'
 
-import wrap2 from '../../assets/addiction-submenu-bg.jpg'
-import PhpSection2 from '../../assets/PhpSection2.jpg'
+// import wrap2 from '../../assets/addiction-submenu-bg.jpg'
+// import PhpSection2 from '../../assets/PhpSection2.jpg'
 
 import Contact2 from '../contact/Contact2'
+import Menus from '../menus/Menus';
 
 const PhpSection = () => {
   return (
@@ -54,23 +55,7 @@ Patients are served lunch between group sessions and can participate in weekly r
 </div>
 </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<Menus />
 <Contact2 />
     </>
   )

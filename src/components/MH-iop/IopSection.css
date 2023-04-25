@@ -4,58 +4,69 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  padding: 3rem 0;
-}
-
-.iop-wrap-reverse {
-    flex-wrap: wrap-reverse;
-    background: url('../../assets/hero-bg-1.jpg') no-repeat center center/cover;
-
-}
-
-.iop-header {
-    text-align: center;
-    padding: 2rem;
+  padding: 5rem 1rem;
 }
 
 .iop-wrap-left {
     width: 600px;
-    padding: 1rem;
+    margin: auto;
+
 }
 
 .iop-wrap-left h1 {
-    font-size: 1.3rem;
+    font-size: 2rem;
     text-align: center;
     color: rgb(15, 15, 15);
+    padding: 1REM;
 }
 
 .iop-wrap-right {
     width: 600px;
+    margin: auto;
+    padding: 0 1rem;
 }
 
-.iop-wrap-right img {
-    width: 100%;
-    padding: 1rem;
-    border-radius: 1rem;
-}
 
-.iop-wrap-left p {
+.iop-wrap-right p {
     font-size: 16px;
     text-align: justify;
 }
 
+
+
+
+
+/* WRAP 2 */
+
+
 .iop-wrap2 {
-    flex-wrap: wrap-reverse ;
-  }
+    background: linear-gradient(to top, #00000086, #00000094), url('../../assets/addiction-submenu-bg.jpg') no-repeat center center/cover;
+    padding: 10rem 0;
+}
 
+  .iop-wrap2 h1 {
+    font-size: 2rem;
+    color: rgb(214, 214, 214);
+    text-align: center;
+}
 
+.iop-wrap2 p {
+    color: rgb(214, 214, 214);
+    font-size: 16px;
+}
+
+.iop-content {
+    padding: 0 2rem;
+}
 
 /* MEDIA QUERIES */
 
 @media screen and (max-width:1200px) {
-    .iop-wrap-left {
+    .iop-wrap-right {
         width: 90%;
     }
+
+
 
 }
 

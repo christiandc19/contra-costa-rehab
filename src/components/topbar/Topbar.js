@@ -3,7 +3,7 @@ import './Topbar.css'
 
 const Topbar = () => {
   return (
-    <div className='topbar'>
+    <div className='topbar' name='top'>
             <div className='topbar-content container'>
                 <div className='address bar-box1'>
                     <p>3700 Sunset Ln, Antioch, CA</p>

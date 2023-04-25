@@ -103,7 +103,7 @@
     fill: none;
     stroke-linecap: round;
     stroke-linejoin: round;
-    stroke: #e2e4e7;
+    stroke: #f0f1f1;
     stroke-width: 2;
     transform: translateX(-5px);
     transition: all 0.3s ease;

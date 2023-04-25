@@ -43,6 +43,9 @@ import PRESCRIPTIONS from './routes/PRESCRIPTIONS';
 import XANAX from './routes/XANAX';
 
 import SA from './routes/SA';
+import SAPhp from './routes/SA-PHP';
+import SAIop from './routes/SA-IOP';
+import SAOp from './routes/SA-OP';
 
 
 
@@ -71,6 +74,9 @@ ReactDOM.render(
       <Route exact path='/schizoaffective' element={<Schizoaffective />} />
       <Route exact path='/schizophrenia' element={<Schizophrenia />} />
 
+
+
+
       <Route exact path='/alcohol' element={<ALCOHOL />} />
       <Route exact path='/cocaine' element={<COCAINE />} />
       <Route exact path='/fentanyl' element={<FENTANYL />} />
@@ -85,6 +91,10 @@ ReactDOM.render(
       <Route exact path='/xanax' element={<XANAX />} />
 
       <Route exact path='/substance-abuse' element={<SA />} />
+      <Route exact path='/substance-abuse-php' element={<SAPhp />} />
+      <Route exact path='/substance-abuse-iop' element={<SAIop />} />
+      <Route exact path='/substance-abuse-op' element={<SAOp />} />
+
 
 
       <Route exact path='/method' element={<MethodPage />} />
