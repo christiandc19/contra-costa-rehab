@@ -14,7 +14,7 @@
   .TherapyMH:before {
     content: '';
     position: absolute;
-    background: url('../../assets/therapyMH.jpg') no-repeat center top/cover;
+    background: url('../../assets/therapyMH-min.jpg') no-repeat center top/cover;
     height: 100%;
     width: 100%;
     z-index: -1;

@@ -8,11 +8,11 @@ import './Op.css'
 const OP = () => {
     return (
         <>
-        <div className='op submenu'>
+        <div className='sa-op submenu'>
 
-                <div className="op-content">
+                <div className="sa-op-content">
                     <Fade top>
-                    <h2>- SUBSTANCE ABUSE</h2>
+                    <h2>SUBSTANCE ABUSE</h2>
                     <h1>Outpatient Program</h1>
                     </Fade>
                 </div>

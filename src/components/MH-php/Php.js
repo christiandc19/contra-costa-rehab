@@ -9,13 +9,13 @@ import './Php.css'
 const PHP = () => {
     return (
         <>
-        <div className='php submenu'>
+        <div className='mh-php submenu'>
             {/* <div className='hero-divider'>
                 <img src={Wave} loading="lazy" repeat-x alt='wave divider'/>
             </div> */}
-                <div className="php-content">
+                <div className="mh-php-content">
                     <Fade top>
-                        <h2>Mental Health</h2>
+                        <h2>MENTAL HEALTH</h2>
                     <h1>Partial Hospitalization Program</h1>
                     </Fade>
                 </div>

@@ -1,12 +1,7 @@
 import React from 'react'
 import './WhatWeDoStyles.css'
-// import { Link } from 'react-router-dom';
-// import Fade from 'react-reveal/Fade';
-// import { Link as LinkRoll } from 'react-scroll'
 
-
-// import WhatWeDoImg from '../../assets/whatwedo.png'
-import wrapper1 from '../../assets/wrapper1.jpg'
+import wrapper1 from '../../assets/wrapper1-min.jpg'
 
 
 const WhatWeDo = () => {

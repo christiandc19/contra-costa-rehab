@@ -2,10 +2,7 @@ import React from 'react'
 import Fade from 'react-reveal/Fade';
 import './OpSection.css'
 
-// import wrap2 from '../../assets/addiction-submenu-bg.jpg'
-// import PhpSection2 from '../../assets/PhpSection2.jpg'
 
-import Contact2 from '../contact/Contact2'
 import MenusSA from '../menusSA/MenusSA';
 
 const OpSection = () => {
@@ -15,7 +12,7 @@ const OpSection = () => {
 
 <Fade right>
         <div className="op-wrap-left">
-        <h1 className='header'>WHAT IS OUTPATIENT PROGRAM TREATMENT FOR MENTAL HEALTH?</h1>
+        <h1 className='header'>WHAT IS OUTPATIENT PROGRAM TREATMENT FOR SUBSTANCE ABUSE?</h1>
 
         </div>
     </Fade>
@@ -53,8 +50,6 @@ Near conclusion, patients and their case manager work together to plan a proper 
 </div>
 
 <MenusSA />
-
-<Contact2 />
     </>
   )
 }
