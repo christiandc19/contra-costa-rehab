@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import {NavLink, Link} from 'react-router-dom'
-import logo from '../../assets/nav-logo-2.png'
+import logo from '../../assets/nav-logo.png'
 import {FiChevronDown } from "react-icons/fi";
 import Topbar from '../../components/topbar/Topbar';
 
@@ -50,7 +50,7 @@ const Navbar = () => {
                 
                  <div className="navbar-logo">
                     <Link to='/'>
-                    <img src={logo} width="80px" height="60px" alt="Palm Springs Rehab Logo" loading="lazy"/>
+                    <img src={logo} width="170px" height="60px" alt="Palm Springs Rehab Logo" loading="lazy"/>
                     </Link>
                 </div>
 

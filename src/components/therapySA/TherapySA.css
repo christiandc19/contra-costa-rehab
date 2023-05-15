@@ -10,13 +10,12 @@
     flex-wrap: nowrap;
     justify-content: center;
     background: #1f1e1ec4;
-
 }
   
   .TherapySA:before {
     content: '';
     position: absolute;
-    background: url('../../assets/Section4-image1-min.jpg') no-repeat center top/cover;
+    background: url('../../assets/Section4-image1-min.jpg') no-repeat center center/cover;
     height: 100%;
     width: 100%;
     z-index: -1;
@@ -27,7 +26,7 @@
     flex-wrap: nowrap;
     gap: 1rem;
     top: 10%;
-    padding: 2rem 0;
+    padding: 5rem 0;
 }
 
 .box-icon {
@@ -74,13 +73,15 @@
     margin: auto;
     display: flex;
     flex-wrap: wrap;
+    gap: 1rem;
     justify-content: center;
 }
 
 .TherapySA-right .box {
-    height: 320px;
+    height: auto;
     width: 350px;
-    background-color: rgba(24, 23, 23, 0.247);
+    background-color: rgba(255, 255, 255, 0.247);
+    border-radius: 10px;
 }
 
 
